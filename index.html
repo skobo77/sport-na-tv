@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sport na TV</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📺</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F3F5F8; --card:#FFFFFF; --ink:#10233F; --muted:#5A6A7F; --line:#D8DEE6;
+  --red:#C8102E; --red-ink:#FFFFFF; --live:#C8102E;
+  --arena:#D9480F; --sk:#1D5BD6; --hrt:#0B7A64; --max:#6E3FC9; --other:#6B7685;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0D1625; --card:#152238; --ink:#E7ECF3; --muted:#9AA9BD; --line:#26354F;
+    --red:#FF4B5C; --live:#FF4B5C; --arena:#FF7A3D; --sk:#5B8DFF; --hrt:#2FC39F; --max:#A47BFF; --other:#8C97A6;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0D1625; --card:#152238; --ink:#E7ECF3; --muted:#9AA9BD; --line:#26354F;
+  --red:#FF4B5C; --live:#FF4B5C; --arena:#FF7A3D; --sk:#5B8DFF; --hrt:#2FC39F; --max:#A47BFF; --other:#8C97A6;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.5 Barlow,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--sk);outline-offset:2px}
+
+.checker{height:18px;background:
+  conic-gradient(var(--red) 25%, #fff 0 50%, var(--red) 0 75%, #fff 0) 0 0/18px 18px}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px 48px}
+
+header{padding:26px 0 8px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+h1{font:700 clamp(44px,9vw,72px)/.9 "Barlow Condensed","Arial Narrow",sans-serif;margin:0;letter-spacing:-.01em}
+.date{font:600 20px/1.2 "Barlow Condensed","Arial Narrow",sans-serif;color:var(--muted);margin-top:6px}
+.edit{background:none;border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-weight:500}
+.edit:hover{border-color:var(--ink)}
+
+.notice{margin:14px 0 0;padding:10px 14px;border-left:3px solid var(--red);background:var(--card);font-size:15px;color:var(--muted)}
+
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding:14px 0 12px;border-bottom:1px solid var(--line)}
+.row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.row::-webkit-scrollbar{display:none}
+.row + .row{margin-top:10px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 14px;font-weight:500;font-size:15px;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip .n{opacity:.6;margin-left:4px;font-variant-numeric:tabular-nums}
+.net{flex:none;border:none;background:none;padding:6px 2px;margin-right:12px;font:600 17px/1 "Barlow Condensed","Arial Narrow",sans-serif;color:var(--muted);border-bottom:2px solid transparent;white-space:nowrap}
+.net[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--red)}
+.days{display:flex;gap:6px;margin:18px 0 0}
+.day-tab{flex:1;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:8px 6px;text-align:center;font:600 18px/1.1 "Barlow Condensed","Arial Narrow",sans-serif}
+.day-tab small{display:block;font:500 13px/1.2 Barlow,sans-serif;color:var(--muted)}
+.day-tab[aria-pressed="true"]{border-color:var(--red);box-shadow:inset 0 0 0 1px var(--red)}
+.day-tab[aria-pressed="true"] small{color:var(--ink)}
+.toggle{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:14px;color:var(--muted)}
+.toggle input{accent-color:var(--red);width:16px;height:16px}
+
+.list{margin-top:6px}
+.ev{display:grid;grid-template-columns:64px 1fr auto;gap:14px;align-items:start;padding:14px 0;border-bottom:1px solid var(--line)}
+.time{font:700 26px/1 "Barlow Condensed","Arial Narrow",sans-serif;font-variant-numeric:tabular-nums;padding-top:2px}
+.title{font-weight:600;font-size:17px;line-height:1.3}
+.meta{font-size:14px;color:var(--muted);margin-top:2px}
+.cro{font-size:14px;margin-top:3px}
+.cro::before{content:"";display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:-1px;
+  background:conic-gradient(var(--red) 25%, #fff 0 50%, var(--red) 0 75%, #fff 0) 0 0/5px 5px;border:1px solid var(--red)}
+.chans{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.ch{font:600 14px/1 "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.02em;padding:6px 9px;border-radius:4px;color:#fff;white-space:nowrap}
+.ch.arena{background:var(--arena)} .ch.sk{background:var(--sk)} .ch.hrt{background:var(--hrt)} .ch.max{background:var(--max)} .ch.other{background:var(--other)}
+.ev.past{opacity:.45}
+.badge{display:inline-block;font:700 12px/1 "Barlow Condensed",sans-serif;letter-spacing:.04em;color:var(--red-ink);background:var(--live);padding:3px 6px;border-radius:3px;margin-left:8px;vertical-align:2px}
+
+.empty{padding:36px 0;text-align:center;color:var(--muted)}
+.empty strong{display:block;color:var(--ink);font:700 24px/1.2 "Barlow Condensed",sans-serif;margin-bottom:6px}
+
+h2{font:700 30px/1 "Barlow Condensed","Arial Narrow",sans-serif;margin:44px 0 4px}
+.sub{color:var(--muted);font-size:15px;margin:0 0 6px}
+.ev .day{font:600 14px/1.1 "Barlow Condensed",sans-serif;color:var(--muted);display:block;margin-bottom:3px}
+.wk .time{font-size:22px}
+
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+footer a{color:inherit}
+
+/* first-run picker */
+.overlay{position:fixed;inset:0;background:rgba(8,16,30,.55);display:none;align-items:flex-end;justify-content:center;z-index:20;padding:0}
+.overlay.open{display:flex}
+.sheet{background:var(--card);width:100%;max-width:560px;border-radius:16px 16px 0 0;padding:22px 20px calc(20px + env(safe-area-inset-bottom,0px));max-height:90%;overflow:auto}
+@media(min-width:620px){.overlay{align-items:center}.sheet{border-radius:14px}}
+.sheet h3{font:700 32px/1 "Barlow Condensed",sans-serif;margin:0 0 6px}
+.sheet p{margin:0 0 16px;color:var(--muted)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.tile{border:2px solid var(--line);background:var(--paper);border-radius:10px;padding:14px 10px;text-align:left;display:flex;flex-direction:column;gap:6px}
+.tile .ic{font-size:26px;line-height:1}
+.tile .nm{font:600 19px/1 "Barlow Condensed",sans-serif}
+.tile[aria-pressed="true"]{border-color:var(--red);background:var(--card);box-shadow:inset 0 0 0 1px var(--red)}
+.actions{display:flex;gap:10px;margin-top:18px;justify-content:flex-end;flex-wrap:wrap}
+.btn{border:none;border-radius:999px;padding:11px 20px;font-weight:600}
+.btn.primary{background:var(--red);color:#fff}
+.btn.ghost{background:none;border:1px solid var(--line)}
+@media (max-width:420px){.ev{grid-template-columns:52px 1fr;}.chans{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:flex-start}.time{font-size:22px}}
+@media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(24px);opacity:0}}}
+</style>
+</head>
+<body>
+<div class="checker" aria-hidden="true"></div>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Sport na TV</h1>
+      <div class="date" id="dateLine"></div>
+    </div>
+    <button class="edit" id="editBtn">Moji sportovi</button>
+  </header>
+  <div id="notice"></div>
+  <div class="days" id="days" role="group" aria-label="Dan"></div>
+
+  <div class="filters">
+    <div class="row" id="sportRow" role="group" aria-label="Sportovi"></div>
+    <div class="row" id="netRow" role="group" aria-label="Kanali"></div>
+    <label class="toggle"><input type="checkbox" id="hidePast"> Sakrij završene prijenose</label>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <footer>
+    <span id="updated"></span> Izvor: <a href="https://sporter.com.hr/" target="_blank" rel="noopener">sporter.com.hr</a>. Termini se znaju promijeniti, provjeri kod operatera prije utakmice. Sva vremena su po hrvatskom vremenu.
+  </footer>
+</div>
+
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-labelledby="pickTitle">
+  <div class="sheet">
+    <h3 id="pickTitle">Što pratiš?</h3>
+    <p>Odaberi sportove koje želiš vidjeti. Izbor se pamti, a možeš ga promijeniti kad god želiš.</p>
+    <div class="tiles" id="tiles"></div>
+    <div class="actions">
+      <button class="btn ghost" id="allBtn">Odaberi sve</button>
+      <button class="btn primary" id="saveBtn">Prikaži raspored</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* Rezervni raspored: koristi se samo ako data/schedule.json nije dostupan. */
+const FALLBACK = {"generated":"2026-10-13T09:10:00+02:00","source":"https://sporter.com.hr/","days":[{"date":"2026-10-13","events":[{"t":"01:00","s":"hokej","title":"New Jersey Devils – Ottawa Senators","comp":"NHL","cro":"","ch":["DAZN"]},{"t":"02:00","s":"hokej","title":"Minnesota Wild – Vegas Golden Knights","comp":"NHL","cro":"","ch":["DAZN"]},{"t":"02:15","s":"ostalo","title":"LA Rams – Buffalo Bills","comp":"NFL (američki nogomet)","cro":"","ch":["Arena Sport 1","DAZN"]},{"t":"06:00","s":"tenis","title":"De Minaur – Khachanov","comp":"ATP Masters Šangaj","cro":"","ch":["Sportklub 2"]},{"t":"06:30","s":"ostalo","title":"Tour of Guangxi, 1. etapa","comp":"Biciklizam","cro":"","ch":["HBO Max"]},{"t":"06:55","s":"tenis","title":"Guo – Cirstea","comp":"WTA 1000 Wuhan","cro":"","ch":["Sportklub HD"]},{"t":"07:45","s":"tenis","title":"Gea – Menšík","comp":"ATP Masters Šangaj","cro":"","ch":["Sportklub 2"]},{"t":"09:45","s":"nogomet","title":"Newcastle Jets – Gamba Osaka","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 3"]},{"t":"10:45","s":"tenis","title":"Li – Osorio","comp":"WTA 1000 Wuhan","cro":"","ch":["Sportklub HD"]},{"t":"12:00","s":"nogomet","title":"Shanghai Port – Daejeon","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 1"]},{"t":"12:00","s":"nogomet","title":"Kyoto – Ratchaburi","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 3"]},{"t":"12:00","s":"nogomet","title":"Pohang Steelers – Johor DT","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 6"]},{"t":"12:00","s":"tenis","title":"Zverev – Bublik","comp":"ATP Masters Šangaj","cro":"","ch":["Sportklub 2"]},{"t":"13:00","s":"tenis","title":"Krueger – Zhang","comp":"WTA 1000 Wuhan","cro":"","ch":["Sportklub HD"]},{"t":"14:15","s":"nogomet","title":"Buriram United – Beijing Guoan","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 1"]},{"t":"14:15","s":"nogomet","title":"Cong An Ha Noi – Kashima","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 3"]},{"t":"15:45","s":"nogomet","title":"East Bengal – Al Shorta","comp":"AFC Liga prvaka 2","cro":"","ch":["Sportklub HD"]},{"t":"15:45","s":"tenis","title":"Pohanková – Wang","comp":"WTA 1000 Wuhan","cro":"","ch":["Sportklub HD","Sportklub 2"]},{"t":"17:30","s":"ostalo","title":"Curling Grand Slam, 1. dan (1. dio)","comp":"Curling","cro":"","ch":["DAZN"]},{"t":"17:45","s":"nogomet","title":"Njemačka – Japan (Ž)","comp":"Prijateljska utakmica","cro":"","ch":["YouTube"]},{"t":"17:50","s":"ostalo","title":"Eneco Tour, prolog","comp":"Biciklizam","cro":"","ch":["Eurosport","HBO Max"]},{"t":"18:00","s":"nogomet","title":"Al-Sadd – Al-Hilal","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 1"]},{"t":"18:00","s":"nogomet","title":"Al Seeb – Al Hussein","comp":"AFC Liga prvaka 2","cro":"","ch":["Sportklub 3"]},{"t":"18:00","s":"kosarka","title":"Lietkabelis – PAOK","comp":"Eurocup","cro":"","ch":["Sportklub 2"]},{"t":"18:00","s":"kosarka","title":"Neptūnas – Bourg","comp":"Eurocup","cro":"","ch":["Sportklub 6"]},{"t":"18:00","s":"kosarka","title":"Zlatibor – Basket Živinice","comp":"ABA liga 2","cro":"","ch":["Arena Sport 5"]},{"t":"18:45","s":"nogomet","title":"Lens – Sporting","comp":"Liga prvaka","cro":"Franjo Ivanović","ch":["Arena Sport 2"]},{"t":"18:45","s":"nogomet","title":"Sabah – Slavia Prag","comp":"Liga prvaka","cro":"","ch":["Arena Sport 4"]},{"t":"18:45","s":"rukomet","title":"Elverum – Nexe","comp":"EHF Europska liga","cro":"Hrvatski klub: Nexe","ch":["Arena Sport 3"]},{"t":"18:45","s":"rukomet","title":"CSM Bucureşti – Izviđač","comp":"EHF Europska liga","cro":"","ch":["Arena Sport 6"]},{"t":"18:45","s":"rukomet","title":"Gummersbach – Eurofarm Rabotnik","comp":"EHF Europska liga","cro":"","ch":["Arena Sport 7"]},{"t":"18:45","s":"rukomet","title":"Mors – Slovan","comp":"EHF Europska liga","cro":"","ch":["Arena Sport 8"]},{"t":"19:00","s":"nogomet","title":"Saarbrücken – Duisburg","comp":"3. Bundesliga","cro":"","ch":["Sportklub HD"]},{"t":"20:00","s":"kosarka","title":"Roma – Balkan Botevgrad","comp":"Eurocup","cro":"","ch":["Sportklub 5"]},{"t":"20:00","s":"kosarka","title":"Alba Berlin – Igokea","comp":"FIBA Liga prvaka","cro":"","ch":["Sportklub 4"]},{"t":"20:00","s":"kosarka","title":"ASVEL – Crvena zvezda","comp":"Euroleague","cro":"","ch":["Sportklub 6"]},{"t":"20:15","s":"nogomet","title":"Al-Ittihad – Shabab Al-Ahli","comp":"AFC Liga prvaka Elite","cro":"","ch":["Sportklub 3"]},{"t":"20:30","s":"kosarka","title":"Partizan – Panathinaikos","comp":"Euroleague","cro":"","ch":["Sportklub 1"]},{"t":"20:30","s":"kosarka","title":"Olimpia Milano – Real Madrid","comp":"Euroleague","cro":"Mario Hezonja","ch":["Sportklub 2"]},{"t":"20:45","s":"rukomet","title":"Sesvete – Bergischer","comp":"EHF Europska liga","cro":"Hrvatski klub: Sesvete","ch":["Arena Sport 2"]},{"t":"21:00","s":"nogomet","title":"Atlético Madrid – Manchester United","comp":"Liga prvaka","cro":"","ch":["Arena Sport 1"]},{"t":"21:00","s":"nogomet","title":"Galatasaray – Barcelona","comp":"Liga prvaka","cro":"Dominik Livaković","ch":["Arena Sport 3"]},{"t":"21:00","s":"nogomet","title":"Inter – Club Brugge","comp":"Liga prvaka","cro":"Petar Sučić","ch":["Arena Sport 5"]},{"t":"21:00","s":"nogomet","title":"Arsenal – Lille","comp":"Liga prvaka","cro":"","ch":["Arena Sport 6"]},{"t":"21:00","s":"nogomet","title":"Viking – Bayern","comp":"Liga prvaka","cro":"Josip Stanišić","ch":["Arena Sport 7"]},{"t":"21:00","s":"nogomet","title":"RB Leipzig – PSV","comp":"Liga prvaka","cro":"Ivan Perišić","ch":["Arena Sport 8"]},{"t":"21:00","s":"kosarka","title":"Valencia – Olympiacos","comp":"Euroleague","cro":"","ch":["Sportklub HD"]},{"t":"21:00","s":"ostalo","title":"Curling Grand Slam, 1. dan (2. dio)","comp":"Curling","cro":"","ch":["DAZN"]}]}]};
+
+const SPORTS = [
+  {id:"nogomet", name:"Nogomet", ic:"⚽"},
+  {id:"kosarka", name:"Košarka", ic:"🏀"},
+  {id:"rukomet", name:"Rukomet", ic:"🤾"},
+  {id:"tenis", name:"Tenis", ic:"🎾"},
+  {id:"hokej", name:"Hokej", ic:"🏒"},
+  {id:"vaterpolo", name:"Vaterpolo", ic:"🤽"},
+  {id:"odbojka", name:"Odbojka", ic:"🏐"},
+  {id:"motosport", name:"Motošport", ic:"🏎️"},
+  {id:"borbe", name:"MMA i boks", ic:"🥊"},
+  {id:"ostalo", name:"Ostalo", ic:"🎯"}
+];
+const ALL_IDS = SPORTS.map(s => s.id);
+
+const NETS = [
+  {id:"all", name:"Svi kanali"},
+  {id:"arena", name:"Arena Sport"},
+  {id:"sk", name:"Sportklub"},
+  {id:"hrt", name:"HRT"},
+  {id:"max", name:"MAX Sport"},
+  {id:"other", name:"Ostalo"}
+];
+
+function net(ch){
+  if(/^Arena/i.test(ch)) return "arena";
+  if(/^Sportklub|^SK /i.test(ch)) return "sk";
+  if(/^HTV|^HRT/i.test(ch)) return "hrt";
+  if(/^MAX/i.test(ch)) return "max";
+  return "other";
+}
+
+/* ---------- state ---------- */
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+};
+let mySports = store.get("snt:sports", null);
+let activeNet = store.get("snt:net", "all");
+let hidePast = store.get("snt:hidePast", false);
+const hiddenChip = new Set(store.get("snt:hiddenChip", []));
+let pick = new Set(mySports || ["nogomet","kosarka","rukomet"]);
+let DATA = null, loadError = null, dayIdx = 0;
+
+/* ---------- time (Europe/Zagreb) ---------- */
+function zagrebNow(){
+  const p = new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Zagreb",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+  const g = t => p.find(x=>x.type===t).value;
+  return {date:`${g("year")}-${g("month")}-${g("day")}`, mins:(+g("hour")%24)*60 + +g("minute")};
+}
+const toMins = t => { const [h,m] = t.split(":").map(Number); return h*60+m; };
+const addDays = (iso, n) => { const d = new Date(iso+"T12:00:00Z"); d.setUTCDate(d.getUTCDate()+n); return d.toISOString().slice(0,10); };
+const longDate = iso => { const s = new Date(iso+"T12:00:00").toLocaleDateString("hr-HR",{weekday:"long",day:"numeric",month:"long"}); return s.charAt(0).toUpperCase()+s.slice(1); };
+const shortDay = iso => new Date(iso+"T12:00:00").toLocaleDateString("hr-HR",{day:"numeric",month:"numeric"});
+
+/* ---------- render ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const chBadges = chs => chs.map(c => `<span class="ch ${net(c)}">${esc(c)}</span>`).join("");
+
+function visibleDays(now){
+  // skip days that are already over (e.g. stale data from yesterday)
+  return DATA.days.filter(d => d.date >= now.date);
+}
+
+function render(){
+  const now = zagrebNow();
+  if(loadError){
+    $("dateLine").textContent = longDate(now.date);
+    $("list").innerHTML = `<div class="empty"><strong>Raspored se nije učitao</strong>${esc(loadError)}</div>`;
+    return;
+  }
+  if(!DATA){ $("list").innerHTML = `<div class="empty">Učitavam raspored…</div>`; return; }
+
+  let days = visibleDays(now);
+  const stale = !days.length || days[0].date !== now.date;
+  if(!days.length) days = DATA.days.slice(-1);
+  dayIdx = Math.min(dayIdx, days.length-1);
+  const day = days[dayIdx];
+  const isToday = day.date === now.date;
+
+  $("dateLine").textContent = longDate(day.date);
+  $("notice").innerHTML = stale
+    ? `<p class="notice">Današnji raspored još nije stigao. Prikazujem zadnje dostupne podatke (${esc(longDate(days[0].date))}).</p>` : "";
+
+  $("days").innerHTML = days.length > 1 ? days.map((d,i) => {
+    const lbl = d.date === now.date ? "Danas" : d.date === addDays(now.date,1) ? "Sutra"
+      : new Date(d.date+"T12:00:00").toLocaleDateString("hr-HR",{weekday:"long"});
+    return `<button class="day-tab" data-i="${i}" aria-pressed="${i===dayIdx}">${esc(lbl.charAt(0).toUpperCase()+lbl.slice(1))}<small>${shortDay(d.date)}</small></button>`;
+  }).join("") : "";
+
+  const sel = new Set(mySports || ALL_IDS);
+  const inNet = e => activeNet === "all" || e.ch.some(c => net(c) === activeNet);
+  const ev = day.events;
+
+  $("sportRow").innerHTML = SPORTS.filter(s => sel.has(s.id)).map(s => {
+    const n = ev.filter(e => e.s === s.id && inNet(e)).length;
+    return `<button class="chip" data-s="${s.id}" aria-pressed="${!hiddenChip.has(s.id)}">${s.ic} ${s.name}<span class="n">${n}</span></button>`;
+  }).join("");
+  $("netRow").innerHTML = NETS.map(n =>
+    `<button class="net" data-n="${n.id}" aria-pressed="${activeNet===n.id}">${n.name}</button>`).join("");
+  $("hidePast").checked = hidePast;
+
+  const show = new Set([...sel].filter(s => !hiddenChip.has(s)));
+  let items = ev.filter(e => show.has(e.s) && inNet(e)).map(e => {
+    const st = toMins(e.t);
+    return {...e, past: isToday && now.mins > st + 120, live: isToday && now.mins >= st && now.mins <= st + 120};
+  });
+  if(hidePast) items = items.filter(e => !e.past);
+
+  if(!items.length){
+    const names = SPORTS.filter(s => show.has(s.id)).map(s => s.name.toLowerCase());
+    $("list").innerHTML = `<div class="empty"><strong>Ništa za prikaz</strong>${
+      show.size ? `Nema prijenosa za odabrano (${esc(names.join(", "))})${activeNet!=="all"?" na ovim kanalima":""}. Probaj drugi sport, dan ili sve kanale.` : "Uključi barem jedan sport iznad."}</div>`;
+  } else {
+    $("list").innerHTML = items.map(e => {
+      const sp = SPORTS.find(s => s.id === e.s) || SPORTS[SPORTS.length-1];
+      return `<div class="ev${e.past?" past":""}">
+        <div class="time">${esc(e.t)}</div>
+        <div>
+          <div class="title">${esc(e.title)}${e.live?'<span class="badge">UŽIVO</span>':""}</div>
+          <div class="meta">${sp.ic} ${esc(e.comp || sp.name)}</div>
+          ${e.cro?`<div class="cro">${esc(e.cro)}</div>`:""}
+        </div>
+        <div class="chans">${chBadges(e.ch)}</div>
+      </div>`;
+    }).join("");
+  }
+
+  if(DATA.generated){
+    const g = new Date(DATA.generated);
+    $("updated").textContent = isNaN(g) ? "" : `Ažurirano ${g.toLocaleString("hr-HR",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Zagreb"})}.`;
+  }
+}
+
+$("days").addEventListener("click", e => { const b = e.target.closest(".day-tab"); if(!b) return; dayIdx = +b.dataset.i; render(); });
+$("sportRow").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if(!b) return;
+  const id = b.dataset.s;
+  hiddenChip.has(id) ? hiddenChip.delete(id) : hiddenChip.add(id);
+  store.set("snt:hiddenChip", [...hiddenChip]); render();
+});
+$("netRow").addEventListener("click", e => {
+  const b = e.target.closest(".net"); if(!b) return;
+  activeNet = b.dataset.n; store.set("snt:net", activeNet); render();
+});
+$("hidePast").addEventListener("change", e => { hidePast = e.target.checked; store.set("snt:hidePast", hidePast); render(); });
+
+/* ---------- picker ---------- */
+function todayEvents(){ return DATA && DATA.days[0] ? DATA.days[0].events : []; }
+function renderTiles(){
+  const ev = todayEvents();
+  $("tiles").innerHTML = SPORTS.map(s => {
+    const n = ev.filter(e => e.s === s.id).length;
+    return `<button class="tile" data-s="${s.id}" aria-pressed="${pick.has(s.id)}">
+      <span class="ic">${s.ic}</span><span class="nm">${s.name}</span>
+      <span class="meta">${DATA ? (n ? n + " danas" : "danas ništa") : ""}</span></button>`;
+  }).join("");
+}
+function openPicker(){ pick = new Set(mySports || ["nogomet","kosarka","rukomet"]); renderTiles(); $("overlay").classList.add("open"); $("saveBtn").focus(); }
+function closePicker(){ $("overlay").classList.remove("open"); }
+
+$("tiles").addEventListener("click", e => {
+  const b = e.target.closest(".tile"); if(!b) return;
+  const id = b.dataset.s;
+  pick.has(id) ? pick.delete(id) : pick.add(id);
+  b.setAttribute("aria-pressed", pick.has(id));
+});
+$("allBtn").addEventListener("click", () => { ALL_IDS.forEach(id => pick.add(id)); renderTiles(); });
+$("saveBtn").addEventListener("click", () => {
+  if(!pick.size) ALL_IDS.forEach(id => pick.add(id));
+  mySports = ALL_IDS.filter(id => pick.has(id));
+  store.set("snt:sports", mySports);
+  hiddenChip.clear(); store.set("snt:hiddenChip", []);
+  closePicker(); render();
+});
+$("editBtn").addEventListener("click", openPicker);
+$("overlay").addEventListener("click", e => { if(e.target.id === "overlay" && mySports) closePicker(); });
+document.addEventListener("keydown", e => { if(e.key === "Escape" && mySports) closePicker(); });
+
+/* ---------- load ---------- */
+async function load(){
+  try{
+    const r = await fetch("data/schedule.json?v=" + Date.now(), {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    const d = await r.json();
+    if(!d || !Array.isArray(d.days) || !d.days.length) throw new Error("prazni podaci");
+    DATA = d; loadError = null;
+  }catch(err){
+    // bez data/schedule.json (dvoklik, pregled u chatu…) koristi ugrađeni raspored
+    if(!DATA) DATA = FALLBACK;
+  }
+  render();
+  if(document.getElementById("overlay").classList.contains("open")) renderTiles();
+}
+
+render();
+if(!mySports) openPicker();
+load();
+setInterval(render, 60000);
+document.addEventListener("visibilitychange", () => { if(!document.hidden) load(); });
+</script>
+</body>
+</html>

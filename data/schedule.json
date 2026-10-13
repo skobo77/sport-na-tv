@@ -1,0 +1,494 @@
+{
+ "generated": "2026-10-13T09:10:00+02:00",
+ "source": "https://sporter.com.hr/",
+ "days": [
+  {
+   "date": "2026-10-13",
+   "events": [
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "New Jersey Devils – Ottawa Senators",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "02:00",
+     "s": "hokej",
+     "title": "Minnesota Wild – Vegas Golden Knights",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "02:15",
+     "s": "ostalo",
+     "title": "LA Rams – Buffalo Bills",
+     "comp": "NFL (američki nogomet)",
+     "cro": "",
+     "ch": [
+      "Arena Sport 1",
+      "DAZN"
+     ]
+    },
+    {
+     "t": "06:00",
+     "s": "tenis",
+     "title": "De Minaur – Khachanov",
+     "comp": "ATP Masters Šangaj",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "06:30",
+     "s": "ostalo",
+     "title": "Tour of Guangxi, 1. etapa",
+     "comp": "Biciklizam",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "06:55",
+     "s": "tenis",
+     "title": "Guo – Cirstea",
+     "comp": "WTA 1000 Wuhan",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "07:45",
+     "s": "tenis",
+     "title": "Gea – Menšík",
+     "comp": "ATP Masters Šangaj",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "09:45",
+     "s": "nogomet",
+     "title": "Newcastle Jets – Gamba Osaka",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "10:45",
+     "s": "tenis",
+     "title": "Li – Osorio",
+     "comp": "WTA 1000 Wuhan",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "12:00",
+     "s": "nogomet",
+     "title": "Shanghai Port – Daejeon",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "12:00",
+     "s": "nogomet",
+     "title": "Kyoto – Ratchaburi",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "12:00",
+     "s": "nogomet",
+     "title": "Pohang Steelers – Johor DT",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "12:00",
+     "s": "tenis",
+     "title": "Zverev – Bublik",
+     "comp": "ATP Masters Šangaj",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "13:00",
+     "s": "tenis",
+     "title": "Krueger – Zhang",
+     "comp": "WTA 1000 Wuhan",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "14:15",
+     "s": "nogomet",
+     "title": "Buriram United – Beijing Guoan",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "14:15",
+     "s": "nogomet",
+     "title": "Cong An Ha Noi – Kashima",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "15:45",
+     "s": "nogomet",
+     "title": "East Bengal – Al Shorta",
+     "comp": "AFC Liga prvaka 2",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "15:45",
+     "s": "tenis",
+     "title": "Pohanková – Wang",
+     "comp": "WTA 1000 Wuhan",
+     "cro": "",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "17:30",
+     "s": "ostalo",
+     "title": "Curling Grand Slam, 1. dan (1. dio)",
+     "comp": "Curling",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "17:45",
+     "s": "nogomet",
+     "title": "Njemačka – Japan (Ž)",
+     "comp": "Prijateljska utakmica",
+     "cro": "",
+     "ch": [
+      "YouTube"
+     ]
+    },
+    {
+     "t": "17:50",
+     "s": "ostalo",
+     "title": "Eneco Tour, prolog",
+     "comp": "Biciklizam",
+     "cro": "",
+     "ch": [
+      "Eurosport",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "nogomet",
+     "title": "Al-Sadd – Al-Hilal",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "nogomet",
+     "title": "Al Seeb – Al Hussein",
+     "comp": "AFC Liga prvaka 2",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "kosarka",
+     "title": "Lietkabelis – PAOK",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "kosarka",
+     "title": "Neptūnas – Bourg",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "kosarka",
+     "title": "Zlatibor – Basket Živinice",
+     "comp": "ABA liga 2",
+     "cro": "",
+     "ch": [
+      "Arena Sport 5"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "nogomet",
+     "title": "Lens – Sporting",
+     "comp": "Liga prvaka",
+     "cro": "Franjo Ivanović",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "nogomet",
+     "title": "Sabah – Slavia Prag",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 4"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "rukomet",
+     "title": "Elverum – Nexe",
+     "comp": "EHF Europska liga",
+     "cro": "Hrvatski klub: Nexe",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "rukomet",
+     "title": "CSM Bucureşti – Izviđač",
+     "comp": "EHF Europska liga",
+     "cro": "",
+     "ch": [
+      "Arena Sport 6"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "rukomet",
+     "title": "Gummersbach – Eurofarm Rabotnik",
+     "comp": "EHF Europska liga",
+     "cro": "",
+     "ch": [
+      "Arena Sport 7"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "rukomet",
+     "title": "Mors – Slovan",
+     "comp": "EHF Europska liga",
+     "cro": "",
+     "ch": [
+      "Arena Sport 8"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "nogomet",
+     "title": "Saarbrücken – Duisburg",
+     "comp": "3. Bundesliga",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "kosarka",
+     "title": "Roma – Balkan Botevgrad",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 5"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "kosarka",
+     "title": "Alba Berlin – Igokea",
+     "comp": "FIBA Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "kosarka",
+     "title": "ASVEL – Crvena zvezda",
+     "comp": "Euroleague",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "20:15",
+     "s": "nogomet",
+     "title": "Al-Ittihad – Shabab Al-Ahli",
+     "comp": "AFC Liga prvaka Elite",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "20:30",
+     "s": "kosarka",
+     "title": "Partizan – Panathinaikos",
+     "comp": "Euroleague",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "20:30",
+     "s": "kosarka",
+     "title": "Olimpia Milano – Real Madrid",
+     "comp": "Euroleague",
+     "cro": "Mario Hezonja",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "20:45",
+     "s": "rukomet",
+     "title": "Sesvete – Bergischer",
+     "comp": "EHF Europska liga",
+     "cro": "Hrvatski klub: Sesvete",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Atlético Madrid – Manchester United",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Galatasaray – Barcelona",
+     "comp": "Liga prvaka",
+     "cro": "Dominik Livaković",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Inter – Club Brugge",
+     "comp": "Liga prvaka",
+     "cro": "Petar Sučić",
+     "ch": [
+      "Arena Sport 5"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Arsenal – Lille",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 6"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Viking – Bayern",
+     "comp": "Liga prvaka",
+     "cro": "Josip Stanišić",
+     "ch": [
+      "Arena Sport 7"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "RB Leipzig – PSV",
+     "comp": "Liga prvaka",
+     "cro": "Ivan Perišić",
+     "ch": [
+      "Arena Sport 8"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "kosarka",
+     "title": "Valencia – Olympiacos",
+     "comp": "Euroleague",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "ostalo",
+     "title": "Curling Grand Slam, 1. dan (2. dio)",
+     "comp": "Curling",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    }
+   ]
+  }
+ ]
+}
