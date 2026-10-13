@@ -1,0 +1,44 @@
+name: Osvježi raspored
+
+on:
+  schedule:
+    # GitHub koristi UTC: 04:00 UTC = 6:00 ljeti / 5:00 zimi po našem vremenu
+    - cron: "0 4 * * *"
+    # drugo osvježavanje u podne hvata promjene termina
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}   # gumb "Run workflow" za ručno pokretanje
+
+permissions:
+  contents: write
+
+concurrency:
+  group: osvjezi-raspored
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instaliraj pakete
+        run: pip install requests==2.32.3 beautifulsoup4==4.12.3
+
+      - name: Dohvati raspored
+        run: python scraper/scrape.py
+
+      - name: Spremi promjene
+        run: |
+          git config user.name "raspored-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/schedule.json
+          if git diff --cached --quiet; then
+            echo "Nema promjena."
+          else
+            git commit -m "Raspored $(TZ=Europe/Zagreb date +'%d.%m.%Y. %H:%M')"
+            git push
+          fi
