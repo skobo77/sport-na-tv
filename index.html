@@ -102,6 +102,25 @@ footer a{color:inherit}
 .btn{border:none;border-radius:999px;padding:11px 20px;font-weight:600}
 .btn.primary{background:var(--red);color:#fff}
 .btn.ghost{background:none;border:1px solid var(--line)}
+.ev{cursor:pointer;border-radius:6px}
+.ev:hover{background:color-mix(in srgb,var(--card) 70%,transparent)}
+.ev:focus-visible{outline:2px solid var(--sk);outline-offset:2px}
+.bell{margin-left:6px;font-size:14px;vertical-align:1px}
+.lbl{font:600 18px/1 "Barlow Condensed",sans-serif;margin:18px 0 10px}
+.mins{display:flex;gap:8px;flex-wrap:wrap}
+.min-chip{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:7px 14px;font-weight:500;font-variant-numeric:tabular-nums}
+.min-chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.custom{display:flex;align-items:center;gap:8px;margin-top:12px;font-size:15px;color:var(--muted)}
+.custom input{width:76px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit}
+.rem-actions{display:grid;gap:8px;margin-top:20px}
+.rem-actions .btn{width:100%;text-align:left;display:flex;flex-direction:column;gap:2px;border-radius:10px;padding:12px 16px}
+.rem-actions .btn small{font-weight:400;font-size:13px;opacity:.8}
+.btn.secondary{background:var(--paper);border:1px solid var(--line)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.rem-head .chans{flex-direction:row;justify-content:flex-start;margin-top:10px}
+.rem-note{margin:12px 0 0;font-size:14px;color:var(--red)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:11px 18px;border-radius:10px;font-size:15px;max-width:calc(100% - 32px);z-index:40;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.show{opacity:1}
 @media (max-width:420px){.ev{grid-template-columns:52px 1fr;}.chans{grid-column:2;flex-direction:row;flex-wrap:wrap;align-items:flex-start}.time{font-size:22px}}
 @media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(24px);opacity:0}}}
 </style>
@@ -143,6 +162,29 @@ footer a{color:inherit}
     </div>
   </div>
 </div>
+
+<div class="overlay" id="remOverlay" role="dialog" aria-modal="true" aria-labelledby="remTitle">
+  <div class="sheet">
+    <div class="rem-head">
+      <div class="meta" id="remWhen"></div>
+      <h3 id="remTitle"></h3>
+      <div class="meta" id="remComp"></div>
+      <div class="chans" id="remCh"></div>
+    </div>
+    <div class="lbl">Podsjeti me prije početka</div>
+    <div class="mins" id="remMins" role="group" aria-label="Minuta prije"></div>
+    <label class="custom">ili upiši: <input type="number" id="remCustom" min="1" max="1440" inputmode="numeric"> min</label>
+    <p class="rem-note" id="remNote" hidden></p>
+    <div class="rem-actions">
+      <button class="btn primary" id="icsBtn">📅 Dodaj u kalendar<small>Najpouzdanije. Podsjetnik stiže i kad je stranica zatvorena.</small></button>
+      <button class="btn secondary" id="gcalBtn">Google kalendar<small>Vrijeme podsjetnika prema tvojim postavkama u Google kalendaru.</small></button>
+      <button class="btn secondary" id="notifBtn">🔔 Obavijest u pregledniku<small>Radi samo dok je ova stranica otvorena.</small></button>
+      <button class="btn ghost" id="remDel" hidden>Ukloni oznaku podsjetnika</button>
+    </div>
+    <div class="actions"><button class="btn ghost" id="remClose">Zatvori</button></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 /* Rezervni raspored: koristi se samo ako data/schedule.json nije dostupan. */
@@ -251,7 +293,7 @@ function render(){
   $("hidePast").checked = hidePast;
 
   const show = new Set([...sel].filter(s => !hiddenChip.has(s)));
-  let items = ev.filter(e => show.has(e.s) && inNet(e)).map(e => {
+  let items = ev.filter(e => show.has(e.s) && inNet(e)).map(e0 => { const e = {...e0, date: day.date};
     const st = toMins(e.t);
     return {...e, past: isToday && now.mins > st + 120, live: isToday && now.mins >= st && now.mins <= st + 120};
   });
@@ -262,12 +304,13 @@ function render(){
     $("list").innerHTML = `<div class="empty"><strong>Ništa za prikaz</strong>${
       show.size ? `Nema prijenosa za odabrano (${esc(names.join(", "))})${activeNet!=="all"?" na ovim kanalima":""}. Probaj drugi sport, dan ili sve kanale.` : "Uključi barem jedan sport iznad."}</div>`;
   } else {
-    $("list").innerHTML = items.map(e => {
+    shown = items;
+    $("list").innerHTML = items.map((e, idx) => {
       const sp = SPORTS.find(s => s.id === e.s) || SPORTS[SPORTS.length-1];
-      return `<div class="ev${e.past?" past":""}">
+      return `<div class="ev${e.past?" past":""}" data-i="${idx}" role="button" tabindex="0" aria-label="Podsjetnik: ${esc(e.title)}">
         <div class="time">${esc(e.t)}</div>
         <div>
-          <div class="title">${esc(e.title)}${e.live?'<span class="badge">UŽIVO</span>':""}</div>
+          <div class="title">${esc(e.title)}${e.live?'<span class="badge">UŽIVO</span>':""}${reminders[evId(e)]?'<span class="bell" title="Podsjetnik postavljen">🔔</span>':""}</div>
           <div class="meta">${sp.ic} ${esc(e.comp || sp.name)}</div>
           ${e.cro?`<div class="cro">${esc(e.cro)}</div>`:""}
         </div>
@@ -342,6 +385,156 @@ async function load(){
   render();
   if(document.getElementById("overlay").classList.contains("open")) renderTiles();
 }
+
+/* ---------- podsjetnici ---------- */
+const MIN_OPTS = [5, 10, 15, 30, 60];
+let shown = [];
+let curEv = null;
+let remMin = store.get("snt:remMin", 15);
+let reminders = store.get("snt:reminders", {});
+const timers = {};
+const evId = e => `${e.date}|${e.t}|${e.title}`;
+
+function zagrebToUtc(dateIso, t){
+  const [y,m,d] = dateIso.split("-").map(Number), [h,mi] = t.split(":").map(Number);
+  const guess = Date.UTC(y, m-1, d, h, mi);
+  const p = new Intl.DateTimeFormat("en-US",{timeZone:"Europe/Zagreb",hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).formatToParts(new Date(guess));
+  const g = k => +p.find(x => x.type === k).value;
+  const asZagreb = Date.UTC(g("year"), g("month")-1, g("day"), g("hour"), g("minute"));
+  return new Date(guess - (asZagreb - guess));
+}
+
+let toastTimer;
+function toast(msg){
+  const el = $("toast"); el.textContent = msg; el.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => el.classList.remove("show"), 4500);
+}
+
+function renderMins(){
+  $("remMins").innerHTML = MIN_OPTS.map(m =>
+    `<button class="min-chip" data-m="${m}" aria-pressed="${remMin===m}">${m < 60 ? m + " min" : "1 sat"}</button>`).join("");
+  $("remCustom").value = MIN_OPTS.includes(remMin) ? "" : remMin;
+}
+
+function openRem(e){
+  curEv = e;
+  const sp = SPORTS.find(s => s.id === e.s) || SPORTS[SPORTS.length-1];
+  $("remWhen").textContent = `${longDate(e.date)} u ${e.t}`;
+  $("remTitle").textContent = e.title;
+  $("remComp").textContent = `${sp.ic} ${e.comp || sp.name}`;
+  $("remCh").innerHTML = chBadges(e.ch);
+  renderMins();
+  const started = zagrebToUtc(e.date, e.t).getTime() <= Date.now();
+  $("remNote").hidden = !started;
+  $("remNote").textContent = started ? "Ovaj prijenos je već počeo." : "";
+  ["icsBtn","gcalBtn","notifBtn"].forEach(id => $(id).disabled = started);
+  $("remDel").hidden = !reminders[evId(e)];
+  $("remOverlay").classList.add("open");
+  $("icsBtn").focus();
+}
+function closeRem(){ $("remOverlay").classList.remove("open"); curEv = null; }
+
+const pad = n => String(n).padStart(2, "0");
+const icsDate = d => `${d.getUTCFullYear()}${pad(d.getUTCMonth()+1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
+const icsEsc = s => String(s).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n");
+const slug = e => (e.date + "-" + e.title).normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/gi,"-").replace(/^-|-$/g,"").toLowerCase().slice(0,60);
+
+function makeIcs(e, min){
+  const st = zagrebToUtc(e.date, e.t), en = new Date(st.getTime() + 2*3600e3);
+  const sum = `${e.title} (${e.ch.join(", ")})`;
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Sport na TV//HR","CALSCALE:GREGORIAN","METHOD:PUBLISH",
+    "BEGIN:VEVENT", `UID:${slug(e)}@sport-na-tv`, `DTSTAMP:${icsDate(new Date())}`,
+    `DTSTART:${icsDate(st)}`, `DTEND:${icsDate(en)}`,
+    `SUMMARY:${icsEsc(sum)}`, `DESCRIPTION:${icsEsc((e.comp || "") + "\nKanal: " + e.ch.join(", "))}`,
+    `LOCATION:${icsEsc(e.ch.join(", "))}`,
+    "BEGIN:VALARM","ACTION:DISPLAY",`DESCRIPTION:${icsEsc(sum)}`,`TRIGGER:-PT${min}M`,"END:VALARM",
+    "END:VEVENT","END:VCALENDAR",""].join("\r\n");
+}
+
+function saveRem(kind){
+  const e = curEv, st = zagrebToUtc(e.date, e.t).getTime();
+  reminders[evId(e)] = {at: st - remMin*60000, start: st, title: e.title, ch: e.ch, min: remMin, kind};
+  store.set("snt:reminders", reminders); store.set("snt:remMin", remMin);
+}
+
+function schedule(id){
+  const r = reminders[id];
+  clearTimeout(timers[id]);
+  if(!r || r.kind !== "obavijest" || r.fired) return;
+  const ms = r.at - Date.now();
+  if(r.start < Date.now()) return;
+  timers[id] = setTimeout(() => fire(id), Math.max(0, Math.min(ms, 2147483000)));
+}
+function fire(id){
+  const r = reminders[id]; if(!r || r.fired) return;
+  if(r.at > Date.now() + 1000){ schedule(id); return; }
+  const body = `Počinje za ${r.min} min na ${r.ch.join(", ")}`;
+  try{ if("Notification" in window && Notification.permission === "granted") new Notification(r.title, {body, tag: id}); }catch(err){}
+  toast(`🔔 ${r.title}: ${body.toLowerCase()}`);
+  r.fired = true; store.set("snt:reminders", reminders);
+}
+
+$("remMins").addEventListener("click", ev => {
+  const b = ev.target.closest(".min-chip"); if(!b) return;
+  remMin = +b.dataset.m; renderMins();
+});
+$("remCustom").addEventListener("input", ev => {
+  const v = Math.round(+ev.target.value);
+  if(v >= 1 && v <= 1440){ remMin = v; $("remMins").querySelectorAll(".min-chip").forEach(c => c.setAttribute("aria-pressed", String(+c.dataset.m === v))); }
+});
+$("icsBtn").addEventListener("click", () => {
+  const e = curEv;
+  const blob = new Blob([makeIcs(e, remMin)], {type: "text/calendar;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a"); a.href = url; a.download = slug(e) + ".ics";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 5000);
+  saveRem("kalendar"); closeRem(); render();
+  toast("Otvori preuzetu datoteku i potvrdi dodavanje u kalendar.");
+});
+$("gcalBtn").addEventListener("click", () => {
+  const e = curEv, st = zagrebToUtc(e.date, e.t), en = new Date(st.getTime() + 2*3600e3);
+  const q = new URLSearchParams({action: "TEMPLATE", text: `${e.title} (${e.ch.join(", ")})`,
+    dates: `${icsDate(st)}/${icsDate(en)}`, details: `${e.comp || ""}\nKanal: ${e.ch.join(", ")}`, location: e.ch.join(", ")});
+  window.open("https://calendar.google.com/calendar/render?" + q.toString(), "_blank", "noopener");
+  saveRem("google"); closeRem(); render();
+});
+$("notifBtn").addEventListener("click", async () => {
+  let ok = false;
+  if("Notification" in window){
+    try{ if(Notification.permission === "default") await Notification.requestPermission(); }catch(err){}
+    ok = Notification.permission === "granted";
+  }
+  const e = curEv; saveRem("obavijest"); schedule(evId(e)); closeRem(); render();
+  toast(ok ? `Podsjetnik ${remMin} min prije. Ostavi stranicu otvorenu.`
+           : `Podsjetnik ${remMin} min prije prikazat će se ovdje na stranici dok je otvorena.`);
+});
+$("remDel").addEventListener("click", () => {
+  const id = evId(curEv); clearTimeout(timers[id]); delete reminders[id];
+  store.set("snt:reminders", reminders); closeRem(); render(); toast("Oznaka podsjetnika uklonjena.");
+});
+$("remClose").addEventListener("click", closeRem);
+$("remOverlay").addEventListener("click", ev => { if(ev.target.id === "remOverlay") closeRem(); });
+document.addEventListener("keydown", ev => { if(ev.key === "Escape" && $("remOverlay").classList.contains("open")) closeRem(); });
+
+$("list").addEventListener("click", ev => {
+  const row = ev.target.closest(".ev[data-i]"); if(row) openRem(shown[+row.dataset.i]);
+});
+$("list").addEventListener("keydown", ev => {
+  if(ev.key !== "Enter" && ev.key !== " ") return;
+  const row = ev.target.closest(".ev[data-i]"); if(!row) return;
+  ev.preventDefault(); openRem(shown[+row.dataset.i]);
+});
+
+// počisti stare podsjetnike i ponovno zakaži aktivne
+(() => {
+  const cutoff = Date.now() - 6*3600e3;
+  for(const id of Object.keys(reminders)) if(reminders[id].start < cutoff) delete reminders[id];
+  store.set("snt:reminders", reminders);
+  Object.keys(reminders).forEach(schedule);
+})();
+document.addEventListener("visibilitychange", () => { if(!document.hidden) Object.keys(reminders).forEach(id => { const r = reminders[id]; if(r.kind === "obavijest" && !r.fired && r.at <= Date.now() && r.start > Date.now()) fire(id); }); });
+
 
 render();
 if(!mySports) openPicker();
