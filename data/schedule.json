@@ -1,22 +1,12 @@
 {
- "generated": "2026-10-13T10:40+02:00",
+ "generated": "2026-10-13T13:16+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-13",
    "events": [
     {
-     "t": "06:10",
-     "s": "tenis",
-     "title": "De Minaur – Khachanov",
-     "comp": "ATP Shanghai",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "06:30",
+     "t": "07:40",
      "s": "tenis",
      "title": "Guo – Cirstea",
      "comp": "WTA Wuhan",
@@ -26,17 +16,7 @@
      ]
     },
     {
-     "t": "06:30",
-     "s": "ostalo",
-     "title": "Tour of Guangxi | Stage 1",
-     "comp": "Tour of Guangxi",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "07:30",
+     "t": "08:00",
      "s": "tenis",
      "title": "Gea – Mensik",
      "comp": "ATP Shanghai",
@@ -209,9 +189,9 @@
     {
      "t": "17:50",
      "s": "ostalo",
-     "title": "Eneco Tour | Prologue",
+     "title": "The Hague - The Hague (Flat) | 3 km",
      "comp": "Eneco Tour",
-     "cro": "",
+     "cro": "Eneco Tour",
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
@@ -716,11 +696,21 @@
     {
      "t": "07:40",
      "s": "ostalo",
-     "title": "Tour of Guangxi | Stage 2",
+     "title": "Chongzuo - Jingxi (Flat) | 179 km",
      "comp": "Tour of Guangxi",
-     "cro": "",
+     "cro": "Tour of Guangxi",
      "ch": [
       "HBO Max"
+     ]
+    },
+    {
+     "t": "09:30",
+     "s": "ostalo",
+     "title": "Padel, Svjetska serija Milano, prijenos",
+     "comp": "Premier Padel",
+     "cro": "Premier Padel",
+     "ch": [
+      "SPTV"
      ]
     },
     {
@@ -736,9 +726,9 @@
     {
      "t": "10:35",
      "s": "ostalo",
-     "title": "Eneco Tour | Stage 1",
+     "title": "Ede - Ede (Flat) | 120 km",
      "comp": "Eneco Tour",
-     "cro": "",
+     "cro": "Eneco Tour",
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
@@ -775,17 +765,6 @@
      ]
     },
     {
-     "t": "14:20",
-     "s": "ostalo",
-     "title": "Eneco Tour | Stage 1",
-     "comp": "Eneco Tour",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
      "t": "15:45",
      "s": "nogomet",
      "title": "Nasaf – Wahda",
@@ -793,6 +772,16 @@
      "cro": "",
      "ch": [
       "Sportklub 1"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "nogomet",
+     "title": "Botev Plovdiv – Botev Vratsa",
+     "comp": "Bulgarian Cup",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
      ]
     },
     {
@@ -1164,21 +1153,41 @@
      ]
     },
     {
+     "t": "08:00",
+     "s": "ostalo",
+     "title": "Socca Liga prvaka: Florea - Legeniakos",
+     "comp": "Socca World Cup",
+     "cro": "Socca World Cup",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
      "t": "08:30",
      "s": "ostalo",
-     "title": "Tour of Guangxi | Stage 3",
+     "title": "Jingxi - Bama (Flat) | 211 km",
      "comp": "Tour of Guangxi",
-     "cro": "",
+     "cro": "Tour of Guangxi",
      "ch": [
       "HBO Max"
      ]
     },
     {
+     "t": "09:30",
+     "s": "ostalo",
+     "title": "Padel, Svjetska serija Milano, prijenos",
+     "comp": "Premier Padel",
+     "cro": "Premier Padel",
+     "ch": [
+      "SPTV"
+     ]
+    },
+    {
      "t": "11:05",
      "s": "ostalo",
-     "title": "Eneco Tour | Stage 2",
+     "title": "Tilburg - Tilburg (Flat) | 13 km",
      "comp": "Eneco Tour",
-     "cro": "",
+     "cro": "Eneco Tour",
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
@@ -1205,6 +1214,16 @@
      ]
     },
     {
+     "t": "12:00",
+     "s": "ostalo",
+     "title": "Socca Liga prvaka: Radex - Eire",
+     "comp": "Socca World Cup",
+     "cro": "Socca World Cup",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
      "t": "14:15",
      "s": "nogomet",
      "title": "Tampines Rovers – Machida",
@@ -1222,6 +1241,16 @@
      "cro": "",
      "ch": [
       "Sportklub 3"
+     ]
+    },
+    {
+     "t": "16:00",
+     "s": "ostalo",
+     "title": "Socca Liga prvaka: Private Rooftop - Eternis",
+     "comp": "Socca World Cup",
+     "cro": "Socca World Cup",
+     "ch": [
+      "Sportklub 6"
      ]
     },
     {
@@ -1272,17 +1301,6 @@
      "cro": "Luka Modric",
      "ch": [
       "Arena Sport 3"
-     ]
-    },
-    {
-     "t": "18:45",
-     "s": "nogomet",
-     "title": "SALZBURG - MILAN",
-     "comp": "Europska liga",
-     "cro": "",
-     "ch": [
-      "Arena Sport 7",
-      "Arena Sport 4"
      ]
     },
     {
@@ -1409,17 +1427,6 @@
     {
      "t": "21:00",
      "s": "nogomet",
-     "title": "Dinamo Zagreb - Anderlecht",
-     "comp": "Europska liga",
-     "cro": "",
-     "ch": [
-      "Arena Sport 3",
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "21:00",
-     "s": "nogomet",
      "title": "Benfica – Celtic",
      "comp": "Europska liga",
      "cro": "",
@@ -1445,6 +1452,16 @@
      "cro": "Mario Hezonja",
      "ch": [
       "Sportklub 1"
+     ]
+    },
+    {
+     "t": "22:00",
+     "s": "ostalo",
+     "title": "Socca Liga prvaka: RS6 - Electro-Energetyka",
+     "comp": "Socca World Cup",
+     "cro": "Socca World Cup",
+     "ch": [
+      "Sportklub 6"
      ]
     }
    ]
