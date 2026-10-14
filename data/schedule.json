@@ -1,211 +1,10 @@
 {
- "generated": "2026-10-14T06:21+02:00",
+ "generated": "2026-10-14T13:15+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-14",
    "events": [
-    {
-     "t": "00:15",
-     "s": "hokej",
-     "title": "Panthers @ Blue Jackets",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "hokej",
-     "title": "Sabres @ Canadiens",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Victoria, BC - Day 1, Session 3",
-     "comp": "The Grand Slam of Curling",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:45",
-     "s": "hokej",
-     "title": "Capitals @ Hurricanes",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Kraken @ Flyers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:15",
-     "s": "hokej",
-     "title": "Lightning @ Rangers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:30",
-     "s": "hokej",
-     "title": "Blues @ Senators",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:45",
-     "s": "hokej",
-     "title": "Canucks @ Islanders",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "hokej",
-     "title": "Penguins @ Blackhawks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "ostalo",
-     "title": "Florida International @ Jacksonville State",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:15",
-     "s": "hokej",
-     "title": "Wild @ Jets",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "nogomet",
-     "title": "Boca Juniors – Vasco",
-     "comp": "Copa Sudamericana",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "hokej",
-     "title": "Avalanche @ Stars",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:45",
-     "s": "hokej",
-     "title": "Golden Knights @ Predators",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Maple Leafs @ Mammoth",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:45",
-     "s": "hokej",
-     "title": "Flames @ Ducks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:00",
-     "s": "ostalo",
-     "title": "Victoria, BC - Day 1, Session 4",
-     "comp": "The Grand Slam of Curling",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:30",
-     "s": "hokej",
-     "title": "Oilers @ Kings",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "05:00",
-     "s": "tenis",
-     "title": "WTA 1000 Wuhan",
-     "comp": "WTA Wuhan",
-     "cro": "WTA Wuhan",
-     "ch": [
-      "Sportklub HD",
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "05:00",
-     "s": "hokej",
-     "title": "Bruins @ Sharks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
     {
      "t": "07:40",
      "s": "ostalo",
@@ -285,6 +84,16 @@
      "cro": "",
      "ch": [
       "Sportklub 1"
+     ]
+    },
+    {
+     "t": "17:30",
+     "s": "ostalo",
+     "title": "Victoria, BC - Day 2, Session 1",
+     "comp": "The Grand Slam of Curling",
+     "cro": "",
+     "ch": [
+      "DAZN"
      ]
     },
     {
