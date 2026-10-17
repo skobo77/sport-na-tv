@@ -1,440 +1,10 @@
 {
- "generated": "2026-10-16T13:14+02:00",
+ "generated": "2026-10-17T06:18+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
-   "date": "2026-10-16",
-   "events": [
-    {
-     "t": "07:35",
-     "s": "ostalo",
-     "title": "Bama - Tiane (Flat) | 164 km",
-     "comp": "Tour of Guangxi",
-     "cro": "Tour of Guangxi",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "08:00",
-     "s": "ostalo",
-     "title": "Socca Liga prvaka: Shakhtar - Husaria Mokotow",
-     "comp": "Socca World Cup",
-     "cro": "Socca World Cup",
-     "ch": [
-      "Sportklub 6"
-     ]
-    },
-    {
-     "t": "08:30",
-     "s": "ostalo",
-     "title": "Golf: DP World Tour - India Championship: Day 2",
-     "comp": "DP World India Championship",
-     "cro": "DP World India Championship",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "08:30",
-     "s": "ostalo",
-     "title": "WATCH LIVE - MEO Rip Curl Pro Portugal presented by Corona Cero 2026 - Day 1",
-     "comp": "WSL Tour",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "08:40",
-     "s": "tenis",
-     "title": "Jodar – Ruud",
-     "comp": "ATP Shanghai",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "09:00",
-     "s": "ostalo",
-     "title": "Padel, Svjetska serija Milano, prijenos",
-     "comp": "Premier Padel",
-     "cro": "Premier Padel",
-     "ch": [
-      "SPTV"
-     ]
-    },
-    {
-     "t": "09:30",
-     "s": "motosport",
-     "title": "LIVE | Free Practice 1 | Portimão | GT World Challenge powered by AWS 2026 (English)",
-     "comp": "GT World Challenge Europe",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "10:25",
-     "s": "ostalo",
-     "title": "Eneco Tour | Stage 3",
-     "comp": "Simac Ladies Tour",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "10:55",
-     "s": "ostalo",
-     "title": "UCI Track World Championships | Shanghai",
-     "comp": "TRACK World Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport 2 - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "11:00",
-     "s": "ostalo",
-     "title": "Socca Liga prvaka: Bombonera - Lab Bez Dextera",
-     "comp": "Socca World Cup",
-     "cro": "Socca World Cup",
-     "ch": [
-      "Sportklub 6"
-     ]
-    },
-    {
-     "t": "12:00",
-     "s": "tenis",
-     "title": "Medvedev – Paul",
-     "comp": "ATP Shanghai",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "13:40",
-     "s": "motosport",
-     "title": "LIVE OB Max Verstappen | Free Practice 2 | Portimão | GT World Challenge powered by AWS 2026 (English)",
-     "comp": "GT World Challenge Europe",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "13:45",
-     "s": "ostalo",
-     "title": "LIVE - La Marginal Surfing Pro QS 4,000 2026 - Day 3",
-     "comp": "WSL Tour",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "14:20",
-     "s": "ostalo",
-     "title": "Sittard-Geleen - Watersley (Flat) | 110 km",
-     "comp": "Eneco Tour",
-     "cro": "Eneco Tour",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "ostalo",
-     "title": "Socca Liga prvaka: Kraken - PAS Naxou",
-     "comp": "Socca World Cup",
-     "cro": "Socca World Cup",
-     "ch": [
-      "Sportklub 6"
-     ]
-    },
-    {
-     "t": "15:30",
-     "s": "nogomet",
-     "title": "Opatija – Sesvete",
-     "comp": "SuperSport Prva NL",
-     "cro": "",
-     "ch": [
-      "MAXSport2"
-     ]
-    },
-    {
-     "t": "17:00",
-     "s": "nogomet",
-     "title": "Otelul – Csikszereda",
-     "comp": "Liga 1",
-     "cro": "",
-     "ch": [
-      "Arena Sport 3"
-     ]
-    },
-    {
-     "t": "17:30",
-     "s": "nogomet",
-     "title": "Aluminij – Olimpija",
-     "comp": "Prva Liga",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "18:00",
-     "s": "nogomet",
-     "title": "Rudeš – Rijeka",
-     "comp": "SuperSport HNL",
-     "cro": "",
-     "ch": [
-      "MAXSport2"
-     ]
-    },
-    {
-     "t": "18:00",
-     "s": "nogomet",
-     "title": "Wieczysta Krakow – Rakow",
-     "comp": "Ekstraklasa",
-     "cro": "",
-     "ch": [
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "18:00",
-     "s": "nogomet",
-     "title": "Yantra – Lokomotiv Plovdiv",
-     "comp": "Bulgarian Cup",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "18:30",
-     "s": "nogomet",
-     "title": "Holstein Kiel Vs. Hertha Berlin",
-     "comp": "2. Bundesliga",
-     "cro": "Josip Brekalo",
-     "ch": [
-      "Sportklub 2",
-      "Youtube"
-     ]
-    },
-    {
-     "t": "18:30",
-     "s": "nogomet",
-     "title": "Cottbus Vs. Nurnberg",
-     "comp": "2. Bundesliga",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "18:30",
-     "s": "nogomet",
-     "title": "Freiburg Vs. Leipzig",
-     "comp": "Bundesliga (Ž)",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "18:30",
-     "s": "motosport",
-     "title": "LIVE OB Max Verstappen | Qualifying | Portimão | GT World Challenge powered by AWS 2026 (English)",
-     "comp": "GT World Challenge Europe",
-     "cro": "",
-     "ch": [
-      "DAZN",
-      "Youtube"
-     ]
-    },
-    {
-     "t": "19:00",
-     "s": "kosarka",
-     "title": "Cibona – Borac",
-     "comp": "Liga ABA",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "19:00",
-     "s": "ostalo",
-     "title": "Socca Liga prvaka: Husaria Mokotow - Galacticos",
-     "comp": "Socca World Cup",
-     "cro": "Socca World Cup",
-     "ch": [
-      "Sportklub 6"
-     ]
-    },
-    {
-     "t": "20:00",
-     "s": "nogomet",
-     "title": "Dinamo B – Botosani",
-     "comp": "Liga 1",
-     "cro": "",
-     "ch": [
-      "Arena Sport 5"
-     ]
-    },
-    {
-     "t": "20:00",
-     "s": "kosarka",
-     "title": "Crvena Zvezda – Paris",
-     "comp": "Euroleague",
-     "cro": "",
-     "ch": [
-      "Sportklub 3"
-     ]
-    },
-    {
-     "t": "20:00",
-     "s": "ostalo",
-     "title": "SAS Championship | Day 1",
-     "comp": "SAS Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "20:15",
-     "s": "kosarka",
-     "title": "Panathinaikos – Hapoel Tel Aviv",
-     "comp": "Euroleague",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "20:30",
-     "s": "nogomet",
-     "title": "Eintracht – Koln",
-     "comp": "Bundesliga",
-     "cro": "Borna Sosa",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "20:30",
-     "s": "nogomet",
-     "title": "Widzew Lodz – Wisla Krakow",
-     "comp": "Ekstraklasa",
-     "cro": "",
-     "ch": [
-      "Arena Sport 4"
-     ]
-    },
-    {
-     "t": "20:30",
-     "s": "kosarka",
-     "title": "Newcastle Eagles Vs. Manchester Basketball",
-     "comp": "BBL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "20:30",
-     "s": "kosarka",
-     "title": "Caledonia Gladiators Vs. Sheffield Sharks",
-     "comp": "BBL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "20:30",
-     "s": "kosarka",
-     "title": "Barcelona – Olympiacos",
-     "comp": "Euroleague",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "20:30",
-     "s": "kosarka",
-     "title": "Vienna – Zadar",
-     "comp": "Liga ABA",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "20:45",
-     "s": "nogomet",
-     "title": "Frosinone – Sassuolo",
-     "comp": "Serie A",
-     "cro": "Duje Caleta-Car",
-     "ch": [
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "20:45",
-     "s": "nogomet",
-     "title": "Le Mans – Toulouse",
-     "comp": "Ligue1",
-     "cro": "",
-     "ch": [
-      "Arena Sport 3"
-     ]
-    },
-    {
-     "t": "21:00",
-     "s": "nogomet",
-     "title": "Burnley – Wolves",
-     "comp": "Championship",
-     "cro": "",
-     "ch": [
-      "Arena Sport 6"
-     ]
-    },
-    {
-     "t": "22:00",
-     "s": "kosarka",
-     "title": "Porto Vs. Esgueira",
-     "comp": "LPB",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    }
-   ]
-  },
-  {
    "date": "2026-10-17",
    "events": [
-    {
-     "t": "00:00",
-     "s": "borbe",
-     "title": "Carmouche Vs Bishop",
-     "comp": "Professional Fighters League",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
     {
      "t": "01:30",
      "s": "ostalo",
@@ -513,6 +83,16 @@
      "cro": "Socca World Cup",
      "ch": [
       "Sportklub 6"
+     ]
+    },
+    {
+     "t": "08:30",
+     "s": "borbe",
+     "title": "Live ONE SAMURAI 4 | First 3 Fights",
+     "comp": "ONE Championship",
+     "cro": "",
+     "ch": [
+      "Youtube"
      ]
     },
     {
@@ -2745,6 +2325,153 @@
      "comp": "Northern Ireland Open",
      "cro": "",
      "ch": [
+      "HBO Max"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "events": [
+    {
+     "t": "00:00",
+     "s": "hokej",
+     "title": "Blue Jackets @ Wild",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "ostalo",
+     "title": "Victoria, BC - Day 6, Men’s Final",
+     "comp": "The Grand Slam of Curling",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "02:00",
+     "s": "hokej",
+     "title": "Hurricanes @ Flames",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "03:00",
+     "s": "ostalo",
+     "title": "Women's Boulder | Final",
+     "comp": "IFSC Climbing Worldcup",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "ostalo",
+     "title": "Snooker",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "13:30",
+     "s": "ostalo",
+     "title": "Afghanistan Vs. Zimbabwe",
+     "comp": "Tri Series",
+     "cro": "",
+     "ch": [
+      "Youtube"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "ostalo",
+     "title": "Snooker",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "nogomet",
+     "title": "Kenya U17 Vs. China Pr U17",
+     "comp": "World Cup Women U17",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "nogomet",
+     "title": "Spain U17 Vs. Mexico U17",
+     "comp": "World Cup Women U17",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "nogomet",
+     "title": "Bayern Munich Vs. Stuttgart",
+     "comp": "Bundesliga (Ž)",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "19:30",
+     "s": "nogomet",
+     "title": "LIVE: Men's 2026/27 FA Cup First Round Draw",
+     "comp": "FA Cup",
+     "cro": "",
+     "ch": [
+      "Youtube"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "nogomet",
+     "title": "Usa U17 Vs. Samoa U17",
+     "comp": "World Cup Women U17",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "nogomet",
+     "title": "Australia U17 Vs. Chile U17",
+     "comp": "World Cup Women U17",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "ostalo",
+     "title": "Snooker",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
       "HBO Max"
      ]
     }
