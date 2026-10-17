@@ -1,60 +1,10 @@
 {
- "generated": "2026-10-17T06:18+02:00",
+ "generated": "2026-10-17T13:12+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-17",
    "events": [
-    {
-     "t": "01:30",
-     "s": "ostalo",
-     "title": "Memphis @ Tulane",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "ostalo",
-     "title": "Washington @ Purdue",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "ostalo",
-     "title": "Appalachian State @ Coastal Carolina",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Penguins @ Avalanche",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:00",
-     "s": "hokej",
-     "title": "Bruins @ Ducks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
     {
      "t": "07:00",
      "s": "nogomet",
@@ -73,6 +23,16 @@
      "cro": "Tour of Guangxi",
      "ch": [
       "HBO Max"
+     ]
+    },
+    {
+     "t": "08:00",
+     "s": "tenis",
+     "title": "ATP Masters Shanghai: 1/2 Finale: Schnaitter/Wallner - Miedler/Oberleitner",
+     "comp": "ATP Shanghai",
+     "cro": "ATP Shanghai",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -124,6 +84,26 @@
      "ch": [
       "DAZN",
       "Youtube"
+     ]
+    },
+    {
+     "t": "09:30",
+     "s": "ostalo",
+     "title": "LIVE - MEO Rip Curl Pro Portugal presented by Corona Cero 2026 - Day 2",
+     "comp": "WSL Tour",
+     "cro": "",
+     "ch": [
+      "Youtube"
+     ]
+    },
+    {
+     "t": "10:30",
+     "s": "tenis",
+     "title": "Zverev – Davidovich-fokina",
+     "comp": "ATP Shanghai",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -237,6 +217,16 @@
      "cro": "",
      "ch": [
       "Youtube"
+     ]
+    },
+    {
+     "t": "13:00",
+     "s": "tenis",
+     "title": "Jodar – Medvedev",
+     "comp": "ATP Shanghai",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -1503,6 +1493,16 @@
      "cro": "",
      "ch": [
       "Sportklub 5",
+      "Youtube"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "nogomet",
+     "title": "FC Koln U19 vs. Mainz U19",
+     "comp": "Bundesliga",
+     "cro": "",
+     "ch": [
       "Youtube"
      ]
     },
