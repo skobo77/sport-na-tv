@@ -1,260 +1,10 @@
 {
- "generated": "2026-10-18T06:19+02:00",
+ "generated": "2026-10-18T13:12+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-18",
    "events": [
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Rangers @ Blue Jackets",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Senators @ Flyers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Sharks @ Red Wings",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Stars @ Blackhawks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Islanders @ Maple Leafs",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Sabres @ Canadiens",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "ostalo",
-     "title": "Florida State @ Miami",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "ostalo",
-     "title": "Arkansas @ Vanderbilt",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "ostalo",
-     "title": "Tcu @ Baylor",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "ostalo",
-     "title": "Victoria, BC - Day 5, Men’s Quarter-Finals",
-     "comp": "The Grand Slam of Curling",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:30",
-     "s": "ostalo",
-     "title": "Louisville @ Syracuse",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:30",
-     "s": "ostalo",
-     "title": "Notre Dame @ Byu",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:30",
-     "s": "ostalo",
-     "title": "Oklahoma State @ Houston",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:30",
-     "s": "ostalo",
-     "title": "Kentucky @ Oklahoma",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "hokej",
-     "title": "Blues @ Predators",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "borbe",
-     "title": "Fundora Vs. Hadribeaj",
-     "comp": "",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Bruins @ Kings",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "ostalo",
-     "title": "Men's Boulder | Final",
-     "comp": "IFSC Climbing Worldcup",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "04:00",
-     "s": "hokej",
-     "title": "Oilers @ Mammoth",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:00",
-     "s": "hokej",
-     "title": "Penguins @ Golden Knights",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:15",
-     "s": "ostalo",
-     "title": "Utah @ Colorado",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:30",
-     "s": "ostalo",
-     "title": "New Mexico @ Hawaii",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:30",
-     "s": "ostalo",
-     "title": "Victoria, BC - Day 5, Men’s & Women’s Semi-Finals",
-     "comp": "The Grand Slam of Curling",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:50",
-     "s": "ostalo",
-     "title": "UCI Track World Championships | Shanghai",
-     "comp": "TRACK World Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "05:00",
-     "s": "ostalo",
-     "title": "Nebraska @ Oregon",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
     {
      "t": "06:30",
      "s": "ostalo",
@@ -721,16 +471,6 @@
     {
      "t": "15:00",
      "s": "nogomet",
-     "title": "Belenenses – Arouca",
-     "comp": "Taça de Portugal",
-     "cro": "",
-     "ch": [
-      "Sportklub 3"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
      "title": "Aston Villa Women Vs. Liverpool Women",
      "comp": "FA WSL",
      "cro": "",
@@ -1160,6 +900,16 @@
      "cro": "",
      "ch": [
       "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "20:45",
+     "s": "nogomet",
+     "title": "Belenenses – Arouca",
+     "comp": "Taça de Portugal",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
      ]
     },
     {
