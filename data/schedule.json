@@ -1,48 +1,98 @@
 {
- "generated": "2026-10-19T06:21+02:00",
+ "generated": "2026-10-19T13:15+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-19",
    "events": [
     {
-     "t": "01:00",
-     "s": "ostalo",
-     "title": "Victoria, BC - Day 6, Men’s Final",
-     "comp": "The Grand Slam of Curling",
+     "t": "06:20",
+     "s": "tenis",
+     "title": "Gibson – Dart",
+     "comp": "WTA Osaka",
      "cro": "",
      "ch": [
-      "DAZN"
+      "Sportklub 2"
      ]
     },
     {
-     "t": "01:15",
-     "s": "nogomet",
-     "title": "Belgrano – River Plate",
-     "comp": "Liga Profesional",
+     "t": "08:40",
+     "s": "tenis",
+     "title": "Kecmanović – Duckworth",
+     "comp": "Astana Open",
      "cro": "",
      "ch": [
-      "Arena Sport 2"
+      "Sportklub 2"
      ]
     },
     {
-     "t": "02:00",
-     "s": "hokej",
-     "title": "Hurricanes @ Flames",
-     "comp": "NHL",
+     "t": "09:25",
+     "s": "tenis",
+     "title": "Boulter – Sakatsume",
+     "comp": "WTA Osaka",
      "cro": "",
      "ch": [
-      "DAZN"
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "10:00",
+     "s": "tenis",
+     "title": "Mannarino – Vukic",
+     "comp": "Astana Open",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
      "t": "11:00",
      "s": "ostalo",
-     "title": "Pang Junxu - Alfie Burden",
+     "title": "Chris Wakelin – Jamie Jones",
      "comp": "Northern Ireland Open",
      "cro": "",
      "ch": [
       "HBO Max"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "ostalo",
+     "title": "Pang Junxu – Alfie Burden",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "11:30",
+     "s": "tenis",
+     "title": "čilić – Basilashvili",
+     "comp": "Astana Open",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "12:00",
+     "s": "tenis",
+     "title": "Cina – Munar",
+     "comp": "ATP Brussels",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "13:30",
+     "s": "tenis",
+     "title": "Hanfmann – Damm",
+     "comp": "ATP Brussels",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
      ]
     },
     {
@@ -53,6 +103,87 @@
      "cro": "",
      "ch": [
       "Youtube"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "ostalo",
+     "title": "Barry Hawkins – Daniel Wells",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "ostalo",
+     "title": "Lei Peifan – Luca Brecel",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "15:00",
+     "s": "tenis",
+     "title": "Faria – Balshaw",
+     "comp": "ATP Lyon",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "15:30",
+     "s": "tenis",
+     "title": "Guerrieri – Michelsen",
+     "comp": "ATP Brussels",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "16:00",
+     "s": "ostalo",
+     "title": "David Gilbert – Oliver Sykes",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "16:00",
+     "s": "ostalo",
+     "title": "Kyren Wilson – Ben Mertens",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "16:00",
+     "s": "ostalo",
+     "title": "Ronnie O'sullivan – Cheung Ka Wai",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "16:30",
+     "s": "tenis",
+     "title": "Arnaldi – Musetti",
+     "comp": "ATP Lyon",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -106,6 +237,16 @@
      ]
     },
     {
+     "t": "18:00",
+     "s": "tenis",
+     "title": "Sonego – Kouame",
+     "comp": "ATP Lyon",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
      "t": "18:30",
      "s": "nogomet",
      "title": "Monza – Cagliari",
@@ -123,6 +264,26 @@
      "cro": "",
      "ch": [
       "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "nogomet",
+     "title": "Trabzon – Besiktas",
+     "comp": "Super Lig",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "rukomet",
+     "title": "Balingen – Hannover",
+     "comp": "Handball-Bundesliga",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
      ]
     },
     {
@@ -168,11 +329,31 @@
     {
      "t": "20:00",
      "s": "ostalo",
-     "title": "Judd Trump - Martin O'Donnell",
+     "title": "Judd Trump – Martin O'donnell",
      "comp": "Northern Ireland Open",
      "cro": "",
      "ch": [
       "Eurosport - Balkan",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "ostalo",
+     "title": "Jak Jones – Tom Ford",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "ostalo",
+     "title": "Stuart Bingham – Yao Pengcheng",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
       "HBO Max"
      ]
     },
@@ -204,6 +385,36 @@
      "cro": "",
      "ch": [
       "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Getafe – Rayo Vallecano",
+     "comp": "La Liga",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "22:00",
+     "s": "ostalo",
+     "title": "Zhang Anda – Liam Pullen",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "22:00",
+     "s": "ostalo",
+     "title": "John Higgins – Liam Highfield",
+     "comp": "Northern Ireland Open",
+     "cro": "",
+     "ch": [
+      "HBO Max"
      ]
     }
    ]
@@ -252,6 +463,39 @@
      ]
     },
     {
+     "t": "04:30",
+     "s": "tenis",
+     "title": "WTA 250 Osaka",
+     "comp": "WTA Osaka",
+     "cro": "WTA Osaka",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "07:00",
+     "s": "tenis",
+     "title": "Tenis: WTA 500 Ningbo & WTA 250 Osaka",
+     "comp": "WTA Ningbo",
+     "cro": "WTA Ningbo",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "08:30",
+     "s": "tenis",
+     "title": "Tenis: ATP 250 Almaty & WTA 500 Ningbo & WTA 250 Osaka",
+     "comp": "Astana Open",
+     "cro": "Astana Open",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
      "t": "11:00",
      "s": "ostalo",
      "title": "Snooker",
@@ -259,6 +503,28 @@
      "cro": "",
      "ch": [
       "HBO Max"
+     ]
+    },
+    {
+     "t": "11:30",
+     "s": "tenis",
+     "title": "Tenis: ATP 250 Brussels & ATP 250 Almaty & WTA 500 Ningbo",
+     "comp": "ATP Brussels",
+     "cro": "ATP Brussels",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "tenis",
+     "title": "Tenis: ATP 250 Lyon & ATP 250 Brussels & ATP 250 Almaty & WTA 500 Ningbo",
+     "comp": "ATP Brussels",
+     "cro": "ATP Brussels",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
      ]
     },
     {
@@ -305,11 +571,31 @@
     {
      "t": "18:00",
      "s": "kosarka",
+     "title": "Balkan Botevgrad – Lietkabelis",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "kosarka",
      "title": "Sloboda Tuzla – Tft Skopje",
      "comp": "Liga ABA 2",
      "cro": "",
      "ch": [
       "Arena Sport 5"
+     ]
+    },
+    {
+     "t": "18:30",
+     "s": "kosarka",
+     "title": "Turk Telekom – Siauliai",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
      ]
     },
     {
@@ -354,6 +640,16 @@
     },
     {
      "t": "20:00",
+     "s": "kosarka",
+     "title": "Cibona – Legia",
+     "comp": "Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "20:00",
      "s": "ostalo",
      "title": "Snooker",
      "comp": "Northern Ireland Open",
@@ -361,6 +657,36 @@
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
+     ]
+    },
+    {
+     "t": "20:30",
+     "s": "kosarka",
+     "title": "Manresa – Roma",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Psg – Barcelona",
+     "comp": "Liga prvaka",
+     "cro": "Dominik Livakovic",
+     "ch": [
+      "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Manchester City – Aek",
+     "comp": "Liga prvaka",
+     "cro": "Mateo Kovacic, Josko Gvardiol | Domagoj Vida, Lovro Majer",
+     "ch": [
+      "Arena Sport 2"
      ]
     },
     {
@@ -412,12 +738,32 @@
      "ch": [
       "Arena Sport 8"
      ]
+    },
+    {
+     "t": "21:00",
+     "s": "kosarka",
+     "title": "Detroit – Boston",
+     "comp": "NBA",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
     }
    ]
   },
   {
    "date": "2026-10-21",
    "events": [
+    {
+     "t": "01:00",
+     "s": "kosarka",
+     "title": "New York – Philadelphia",
+     "comp": "NBA",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
     {
      "t": "01:00",
      "s": "hokej",
@@ -509,6 +855,16 @@
      ]
     },
     {
+     "t": "03:30",
+     "s": "kosarka",
+     "title": "San Antonio – Oklahoma City",
+     "comp": "NBA",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
      "t": "03:40",
      "s": "hokej",
      "title": "Red Wings @ Kraken",
@@ -526,6 +882,17 @@
      "cro": "",
      "ch": [
       "DAZN"
+     ]
+    },
+    {
+     "t": "04:30",
+     "s": "tenis",
+     "title": "WTA 250 Osaka",
+     "comp": "WTA Osaka",
+     "cro": "WTA Osaka",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
      ]
     },
     {
