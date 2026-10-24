@@ -1,123 +1,18 @@
 {
- "generated": "2026-10-24T06:18+02:00",
+ "generated": "2026-10-24T13:12+02:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-24",
    "events": [
     {
-     "t": "00:20",
-     "s": "motosport",
-     "title": "Moto 2 Australija: Trening 3",
-     "comp": "Moto 2",
-     "cro": "Moto 2",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "01:05",
-     "s": "motosport",
-     "title": "Moto GP Australija: Trening 3",
-     "comp": "Moto GP",
-     "cro": "Moto GP",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "hokej",
-     "title": "Canadiens @ Blackhawks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "ostalo",
-     "title": "World Series G1",
-     "comp": "",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "borbe",
-     "title": "Woodley Vs Havener",
-     "comp": "Legacy Fighting Alliance",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Lightning @ Avalanche",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:45",
-     "s": "motosport",
-     "title": "Moto 3 Australija: Kvalifikacije",
-     "comp": "Moto 3",
-     "cro": "Moto 3",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "04:35",
-     "s": "motosport",
-     "title": "Moto 2 Australija: Kvalifikacije",
-     "comp": "Moto 2",
-     "cro": "Moto 2",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "05:30",
-     "s": "ostalo",
-     "title": "Golf: Korea Championship: Day 3",
-     "comp": "Genesis Open",
-     "cro": "Genesis Open",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "05:50",
+     "t": "07:30",
      "s": "ostalo",
      "title": "Golden Trail",
      "comp": "Golden Trail World Series",
      "cro": "",
      "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "06:00",
-     "s": "motosport",
-     "title": "Moto GP Australija: Sprint utrka",
-     "comp": "Moto GP",
-     "cro": "Moto GP",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
+      "Eurosport - Balkan"
      ]
     },
     {
@@ -158,7 +53,7 @@
      "cro": "",
      "ch": [
       "Eurosport - Balkan",
-      "HTV2"
+      "HBO Max"
      ]
     },
     {
@@ -175,7 +70,7 @@
      "t": "10:40",
      "s": "motosport",
      "title": "Euroformula Open 2026 BARCELONA — Round 8 Qualy",
-     "comp": "Moto 3",
+     "comp": "Formula 1",
      "cro": "",
      "ch": [
       "Youtube"
@@ -261,7 +156,7 @@
      "cro": "Soelden (Ž)",
      "ch": [
       "Eurosport - Balkan",
-      "HTV2"
+      "HBO Max"
      ]
     },
     {
@@ -340,7 +235,7 @@
      "t": "13:55",
      "s": "motosport",
      "title": "Euroformula Open 2026 BARCELONA — Round 8 Race 1",
-     "comp": "Moto 3",
+     "comp": "Formula 1",
      "cro": "",
      "ch": [
       "Youtube"
@@ -385,16 +280,6 @@
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
-     ]
-    },
-    {
-     "t": "14:00",
-     "s": "ostalo",
-     "title": "Rotterdam: Svjetsko prvenstvo u gimnastici, finale po spravama",
-     "comp": "World Artistic Gymnastics Championships",
-     "cro": "World Artistic Gymnastics Championships",
-     "ch": [
-      "HTV2"
      ]
     },
     {
@@ -656,16 +541,6 @@
      "cro": "",
      "ch": [
       "Arena Sport 8"
-     ]
-    },
-    {
-     "t": "17:50",
-     "s": "motosport",
-     "title": "Rally Six Cities North of Portugal : Stage 8",
-     "comp": "European Rally Championship",
-     "cro": "",
-     "ch": [
-      "DAZN"
      ]
     },
     {
@@ -1339,8 +1214,8 @@
      "comp": "Soelden (M)",
      "cro": "Soelden (M)",
      "ch": [
-      "Eurosport - Balkan",
-      "HTV2"
+      "HTV2",
+      "Eurosport - Balkan"
      ]
     },
     {
@@ -1442,8 +1317,8 @@
      "comp": "Soelden (M)",
      "cro": "Soelden (M)",
      "ch": [
-      "Eurosport - Balkan",
-      "HTV2"
+      "HTV2",
+      "Eurosport - Balkan"
      ]
     },
     {
@@ -1474,16 +1349,6 @@
      "cro": "",
      "ch": [
       "Sportklub 1"
-     ]
-    },
-    {
-     "t": "13:00",
-     "s": "nogomet",
-     "title": "Watford Women vs. Durham Women",
-     "comp": "FA WSL",
-     "cro": "",
-     "ch": [
-      "Youtube"
      ]
     },
     {
@@ -1555,6 +1420,17 @@
      "cro": "",
      "ch": [
       "Youtube"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "nogomet",
+     "title": "Agram – Dinamo",
+     "comp": "Prva HNL (Ž)",
+     "cro": "",
+     "ch": [
+      "MAXSport2",
+      "MAXSport1"
      ]
     },
     {
@@ -1833,6 +1709,16 @@
     {
      "t": "16:00",
      "s": "nogomet",
+     "title": "Leicester City Women vs. Southampton Women",
+     "comp": "FA WSL",
+     "cro": "",
+     "ch": [
+      "Youtube"
+     ]
+    },
+    {
+     "t": "16:00",
+     "s": "nogomet",
      "title": "Nürnberg Vs. Leverkusen",
      "comp": "Bundesliga (Ž)",
      "cro": "",
@@ -1847,8 +1733,7 @@
      "comp": "Premijer liga",
      "cro": "",
      "ch": [
-      "MAXSport2",
-      "MAXSport1"
+      "MAXSport2"
      ]
     },
     {
