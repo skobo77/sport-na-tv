@@ -1,241 +1,28 @@
 {
- "generated": "2026-10-25T05:19+01:00",
+ "generated": "2026-10-25T12:12+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-25",
    "events": [
     {
-     "t": "00:00",
-     "s": "kosarka",
-     "title": "Charlotte – Miami",
-     "comp": "NBA",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "00:00",
-     "s": "ostalo",
-     "title": "World Tour | Vancouver",
-     "comp": "ISU Short Track Speed Skating World Cup",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "00:40",
-     "s": "motosport",
-     "title": "Moto GP Australija: Warm up",
-     "comp": "Moto GP",
-     "cro": "Moto GP",
-     "ch": [
-      "Sportklub 3"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Sabres @ Capitals",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Golden Knights @ Blue Jackets",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Hurricanes @ Blues",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Predators @ Penguins",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Sharks @ Bruins",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Maple Leafs @ Oilers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Rangers @ Senators",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:30",
-     "s": "ostalo",
-     "title": "Usc @ Wisconsin",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "motosport",
-     "title": "Moto 3 Australija: Utrka",
-     "comp": "Moto 3",
-     "cro": "Moto 3",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "hokej",
-     "title": "Lightning @ Mammoth",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "ostalo",
-     "title": "World Series G2",
-     "comp": "",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "borbe",
-     "title": "Navarrete Vs. Foster",
-     "comp": "",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:15",
-     "s": "motosport",
-     "title": "Moto 2 Australija: Utrka",
-     "comp": "Moto 2",
-     "cro": "Moto 2",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "nogomet",
-     "title": "Rosario – Huracan",
-     "comp": "Liga Profesional",
-     "cro": "",
-     "ch": [
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Red Wings @ Flames",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Wild @ Kraken",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:30",
-     "s": "ostalo",
-     "title": "Golf: Korea Championship: Day 4",
-     "comp": "Genesis Open",
-     "cro": "Genesis Open",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "04:00",
-     "s": "motosport",
-     "title": "Moto GP Australija: Utrka",
-     "comp": "Moto GP",
-     "cro": "Moto GP",
-     "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "04:50",
-     "s": "ostalo",
-     "title": "Golden Trail",
-     "comp": "Golden Trail World Series",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "05:30",
+     "t": "05:35",
      "s": "tenis",
      "title": "Finale",
      "comp": "WTA Osaka",
      "cro": "",
      "ch": [
       "Sportklub 2"
+     ]
+    },
+    {
+     "t": "06:00",
+     "s": "ostalo",
+     "title": "Golden Trail",
+     "comp": "Golden Trail World Series",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan"
      ]
     },
     {
@@ -273,7 +60,7 @@
      "t": "10:17",
      "s": "motosport",
      "title": "Barcelona Race 2",
-     "comp": "Moto 3",
+     "comp": "Nascar Cup",
      "cro": "",
      "ch": [
       "DAZN"
@@ -308,6 +95,16 @@
      "ch": [
       "Eurosport 2 - Balkan",
       "HBO Max"
+     ]
+    },
+    {
+     "t": "11:45",
+     "s": "ostalo",
+     "title": "Kuwait Premier Padel Major : Centre Court",
+     "comp": "Premier Padel",
+     "cro": "",
+     "ch": [
+      "Youtube"
      ]
     },
     {
@@ -496,16 +293,6 @@
     },
     {
      "t": "14:00",
-     "s": "tenis",
-     "title": "Tenis ATP 250 Lyon: Finale",
-     "comp": "ATP Lyon",
-     "cro": "ATP Lyon",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "14:00",
      "s": "ostalo",
      "title": "Snooker",
      "comp": "Northern Ireland Open",
@@ -533,6 +320,16 @@
      "cro": "Ivan Perisic",
      "ch": [
       "Sportklub 6"
+     ]
+    },
+    {
+     "t": "14:30",
+     "s": "tenis",
+     "title": "Finale",
+     "comp": "ATP Lyon",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -711,7 +508,7 @@
      "t": "15:35",
      "s": "motosport",
      "title": "Euroformula Open 2026 BARCELONA — Round 8 Race 3",
-     "comp": "Moto 3",
+     "comp": "Nascar Cup",
      "cro": "",
      "ch": [
       "Youtube"
@@ -1100,17 +897,6 @@
      "ch": [
       "Arena Sport 6",
       "DAZN"
-     ]
-    },
-    {
-     "t": "20:00",
-     "s": "ostalo",
-     "title": "Snooker",
-     "comp": "Northern Ireland Open",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
      ]
     },
     {
