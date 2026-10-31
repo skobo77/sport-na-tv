@@ -1,70 +1,10 @@
 {
- "generated": "2026-10-31T05:12+01:00",
+ "generated": "2026-10-31T12:08+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-10-31",
    "events": [
-    {
-     "t": "00:00",
-     "s": "hokej",
-     "title": "Jets @ Panthers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:00",
-     "s": "ostalo",
-     "title": "Tulane @ Charlotte",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Baylor @ Ucf",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Kraken @ Flames",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:15",
-     "s": "nogomet",
-     "title": "Racing – Aldosivi",
-     "comp": "Liga Profesional",
-     "cro": "",
-     "ch": [
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "01:55",
-     "s": "ostalo",
-     "title": "Men | Short Program",
-     "comp": "Skate Canada",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
     {
      "t": "02:30",
      "s": "ostalo",
@@ -156,16 +96,6 @@
      ]
     },
     {
-     "t": "05:30",
-     "s": "tenis",
-     "title": "Shnaider – Pohankova",
-     "comp": "WTA Tokyo",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
      "t": "05:45",
      "s": "motosport",
      "title": "Moto 3 Malaysia: Kvalifikacije",
@@ -174,6 +104,26 @@
      "ch": [
       "Sportklub 5",
       "Sportklub 4"
+     ]
+    },
+    {
+     "t": "05:50",
+     "s": "motosport",
+     "title": "Shanghai: Race 1",
+     "comp": "GT World Challenge Asia",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "06:25",
+     "s": "tenis",
+     "title": "Shnaider – Pohankova",
+     "comp": "WTA Tokyo",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -1519,6 +1469,16 @@
      ]
     },
     {
+     "t": "04:40",
+     "s": "motosport",
+     "title": "LIVE | Race 2 | Shanghai International Circuit | GT World Challenge Asia pwd by AWS 2026",
+     "comp": "GT World Challenge Asia",
+     "cro": "",
+     "ch": [
+      "Youtube"
+     ]
+    },
+    {
      "t": "05:00",
      "s": "nogomet",
      "title": "Yokohama F Marinos Vs. Kawasaki Frontale",
@@ -1537,16 +1497,6 @@
      "ch": [
       "Sportklub 5",
       "Sportklub 4"
-     ]
-    },
-    {
-     "t": "06:05",
-     "s": "motosport",
-     "title": "Shanghai: Race 2",
-     "comp": "GT World Challenge Asia",
-     "cro": "",
-     "ch": [
-      "DAZN"
      ]
     },
     {
