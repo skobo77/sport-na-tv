@@ -1,120 +1,10 @@
 {
- "generated": "2026-11-01T05:13+01:00",
+ "generated": "2026-11-01T12:08+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-11-01",
    "events": [
-    {
-     "t": "00:00",
-     "s": "hokej",
-     "title": "Penguins @ Canadiens",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:00",
-     "s": "hokej",
-     "title": "Maple Leafs @ Canucks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:00",
-     "s": "ostalo",
-     "title": "Oklahoma State @ Iowa State",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Mississippi State @ Texas",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Ohio State @ Usc",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Georgia Tech @ Pittsburgh",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Miami @ North Carolina",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:35",
-     "s": "ostalo",
-     "title": "Men | Free Program",
-     "comp": "Skate Canada",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "00:45",
-     "s": "ostalo",
-     "title": "Missouri @ Arkansas",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "hokej",
-     "title": "Blue Jackets @ Stars",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "01:00",
-     "s": "ostalo",
-     "title": "Washington @ Nebraska",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
     {
      "t": "02:30",
      "s": "ostalo",
@@ -186,7 +76,7 @@
      ]
     },
     {
-     "t": "04:00",
+     "t": "04:10",
      "s": "tenis",
      "title": "Finale",
      "comp": "WTA Tokyo",
@@ -320,7 +210,7 @@
      ]
     },
     {
-     "t": "09:30",
+     "t": "09:40",
      "s": "tenis",
      "title": "Finale",
      "comp": "WTA Guangzhou",
