@@ -1,136 +1,115 @@
 {
- "generated": "2026-11-01T12:08+01:00",
+ "generated": "2026-11-02T13:11+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "events": [
     {
-     "t": "02:30",
-     "s": "ostalo",
-     "title": "Stuart Bingham – Marco Fu",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "ostalo",
-     "title": "Lyu Haotian – John Higgins",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "ostalo",
-     "title": "Ishpreet Singh Chadha – Mark Williams",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "ostalo",
-     "title": "Zhang Anda – Huang Jiahao",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "ostalo",
-     "title": "Golf: LPGA Tour - Maybank Championship: Day 4",
-     "comp": "Maybank Championship",
-     "cro": "Maybank Championship",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "02:40",
-     "s": "ostalo",
-     "title": "Pairs | Free Program",
-     "comp": "Skate Canada",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "hokej",
-     "title": "Flames @ Avalanche",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:10",
+     "t": "07:00",
      "s": "tenis",
-     "title": "Finale",
-     "comp": "WTA Tokyo",
+     "title": "WTA 250 Hong Kong: Golubic - Boulter",
+     "comp": "WTA Hong Kong",
+     "cro": "WTA Hong Kong",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "07:10",
+     "s": "tenis",
+     "title": "Golubic – Boulter",
+     "comp": "WTA Hong Kong",
      "cro": "",
      "ch": [
       "Sportklub 2"
      ]
     },
     {
-     "t": "04:40",
-     "s": "motosport",
-     "title": "LIVE | Race 2 | Shanghai International Circuit | GT World Challenge Asia pwd by AWS 2026",
-     "comp": "GT World Challenge Asia",
+     "t": "08:55",
+     "s": "tenis",
+     "title": "Volynets – Sasnovich",
+     "comp": "WTA Hong Kong",
      "cro": "",
      "ch": [
-      "Youtube"
+      "Sportklub HD"
      ]
     },
     {
-     "t": "05:00",
+     "t": "09:15",
+     "s": "tenis",
+     "title": "Lee – Sakkari",
+     "comp": "WTA Hong Kong",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "10:30",
+     "s": "tenis",
+     "title": "Sawangkaew – Hontama",
+     "comp": "WTA Chennai Open",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "tenis",
+     "title": "Buse – Bergs",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "tenis",
+     "title": "Darderi – Hijikata",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "12:00",
      "s": "nogomet",
-     "title": "Yokohama F Marinos Vs. Kawasaki Frontale",
-     "comp": "J-League",
+     "title": "Slovačka U-17 (ž) – Hrvatska U-17 (ž)",
+     "comp": "Euro U17 Women",
      "cro": "",
      "ch": [
-      "Youtube"
+      "MAXSport2"
      ]
     },
     {
-     "t": "05:00",
-     "s": "motosport",
-     "title": "Moto 3 Malaysia: Utrka",
-     "comp": "Moto 3",
-     "cro": "Moto 3",
+     "t": "12:00",
+     "s": "tenis",
+     "title": "Yamaguchi – Kulambayeva",
+     "comp": "WTA Chennai Open",
+     "cro": "",
      "ch": [
-      "Sportklub 5",
       "Sportklub 4"
      ]
     },
     {
-     "t": "06:15",
-     "s": "motosport",
-     "title": "Moto 2 Malaysia: Utrka",
-     "comp": "Moto 2",
-     "cro": "Moto 2",
+     "t": "12:30",
+     "s": "tenis",
+     "title": "Van Assche – Navone",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
      "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
+      "Sportklub HD"
      ]
     },
     {
-     "t": "07:00",
+     "t": "12:30",
      "s": "ostalo",
-     "title": "Aaron Hill – Anton Kazakov",
+     "title": "Wu Yize – Stephen Maguire",
      "comp": "International Championship",
      "cro": "",
      "ch": [
@@ -139,9 +118,9 @@
      ]
     },
     {
-     "t": "07:00",
+     "t": "12:30",
      "s": "ostalo",
-     "title": "Ding Junhui – Gao Yang",
+     "title": "Chris Wakelin – Chang Bingyu",
      "comp": "International Championship",
      "cro": "",
      "ch": [
@@ -149,9 +128,9 @@
      ]
     },
     {
-     "t": "07:00",
+     "t": "12:30",
      "s": "ostalo",
-     "title": "Judd Trump – Fan Zhengyi",
+     "title": "Sam Craigie – Zhao Xintong",
      "comp": "International Championship",
      "cro": "",
      "ch": [
@@ -159,9 +138,9 @@
      ]
     },
     {
-     "t": "07:00",
+     "t": "12:30",
      "s": "ostalo",
-     "title": "Liam Highfield – Kyren Wilson",
+     "title": "Ryan Day – Kyren Wilson",
      "comp": "International Championship",
      "cro": "",
      "ch": [
@@ -169,246 +148,89 @@
      ]
     },
     {
-     "t": "08:00",
+     "t": "13:00",
+     "s": "kosarka",
+     "title": "Partizan – Cluj",
+     "comp": "Liga ABA",
+     "cro": "",
+     "ch": [
+      "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "tenis",
+     "title": "Merida – Blockx",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "tenis",
+     "title": "Norrie – Arnaldi",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "14:45",
      "s": "nogomet",
-     "title": "Machida Zelvia Vs. Gamba Osaka",
-     "comp": "J-League",
+     "title": "Pakhtakor – Nassr",
+     "comp": "AFC Champions League",
+     "cro": "Marcelo Brozovic",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "15:30",
+     "s": "tenis",
+     "title": "Bellucci – Sonego",
+     "comp": "Rolex Paris Masters",
      "cro": "",
      "ch": [
-      "Youtube"
+      "Sportklub 2"
      ]
     },
     {
-     "t": "08:00",
-     "s": "motosport",
-     "title": "Moto GP Malaysia: Utrka",
-     "comp": "Moto GP",
-     "cro": "Moto GP",
+     "t": "15:30",
+     "s": "tenis",
+     "title": "Jacquet – Machac",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
      "ch": [
-      "Sportklub 5",
-      "Sportklub 4"
+      "Sportklub HD"
      ]
     },
     {
-     "t": "09:30",
+     "t": "16:00",
      "s": "nogomet",
-     "title": "Kobe – Bam Khatoon",
-     "comp": "FA WSL",
+     "title": "Cherno More – Botev Vratsa",
+     "comp": "Parva Liga",
      "cro": "",
      "ch": [
       "Sportklub 3"
      ]
     },
     {
-     "t": "09:30",
-     "s": "nogomet",
-     "title": "Hwacheon – 4.25 Sports Club",
-     "comp": "FA WSL",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "09:40",
-     "s": "tenis",
-     "title": "Finale",
-     "comp": "WTA Guangzhou",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "10:00",
-     "s": "ostalo",
-     "title": "Curling",
-     "comp": "European Curling Championships",
-     "cro": "",
-     "ch": [
-      "Eurosport 2 - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "11:30",
-     "s": "ostalo",
-     "title": "Grand Final: Day 4",
-     "comp": "Challenge Tour Grand Final",
-     "cro": "Challenge Tour Grand Final",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "12:00",
-     "s": "nogomet",
-     "title": "Croatia Zmijavci – Dinamo Ii",
-     "comp": "SuperSport Prva NL",
-     "cro": "",
-     "ch": [
-      "MAXSport2",
-      "MAXSport1"
-     ]
-    },
-    {
-     "t": "12:00",
+     "t": "16:00",
      "s": "kosarka",
-     "title": "Monbus – Breogan",
-     "comp": "ACB",
-     "cro": "Danko Branković",
-     "ch": [
-      "Sportklub 5"
-     ]
-    },
-    {
-     "t": "12:00",
-     "s": "kosarka",
-     "title": "Joventut – Bilbao",
-     "comp": "ACB",
-     "cro": "",
+     "title": "Petkim – Efes",
+     "comp": "Süper Ligi",
+     "cro": "Dario Sarić",
      "ch": [
       "Sportklub 6"
      ]
     },
     {
-     "t": "12:00",
-     "s": "kosarka",
-     "title": "Olympiacos – Peristeri",
-     "comp": "Basket League",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "12:00",
-     "s": "borbe",
-     "title": "Naiza Fc 86",
-     "comp": "Naiza Fighter Championship",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "12:30",
+     "t": "16:30",
      "s": "nogomet",
-     "title": "Como – Venezia",
-     "comp": "Serie A",
-     "cro": "Martin Baturina",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "kosarka",
-     "title": "Real Madrid – Burgos",
-     "comp": "ACB",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Xu Si – Gary Wilson",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "David Lilley – Zhao Xintong",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Wu Yize – Robbie Williams",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "13:00",
-     "s": "nogomet",
-     "title": "Bsk – Sarajevo",
-     "comp": "WWIN Liga BiH",
-     "cro": "",
-     "ch": [
-      "Arena Sport 4"
-     ]
-    },
-    {
-     "t": "13:00",
-     "s": "kosarka",
-     "title": "Crvena Zvezda – široki",
-     "comp": "Liga ABA",
-     "cro": "",
-     "ch": [
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "13:30",
-     "s": "nogomet",
-     "title": "Hannover 96 Vs. Dynamo Dresden",
-     "comp": "2. Bundesliga",
-     "cro": "",
-     "ch": [
-      "Sportklub 3",
-      "Youtube"
-     ]
-    },
-    {
-     "t": "13:30",
-     "s": "nogomet",
-     "title": "St Pauli Vs. Nurnberg",
-     "comp": "2. Bundesliga",
-     "cro": "",
-     "ch": [
-      "Sportklub 4",
-      "Youtube"
-     ]
-    },
-    {
-     "t": "13:30",
-     "s": "nogomet",
-     "title": "Greuther Furth Vs. Holstein Kiel",
-     "comp": "2. Bundesliga",
-     "cro": "",
-     "ch": [
-      "Sportklub 5",
-      "Youtube"
-     ]
-    },
-    {
-     "t": "13:42",
-     "s": "ostalo",
-     "title": "X2O Badkamers Trofee | Oudenaarde",
-     "comp": "X²O Badkamers Trophy",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "14:00",
-     "s": "nogomet",
-     "title": "Otelul – Sepsi",
+     "title": "Voluntari – Farul",
      "comp": "Liga 1",
      "cro": "",
      "ch": [
@@ -416,261 +238,109 @@
      ]
     },
     {
-     "t": "14:00",
-     "s": "nogomet",
-     "title": "Falkirk – Celtic",
-     "comp": "Premiership",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "14:00",
-     "s": "ostalo",
-     "title": "New York City Marathon",
-     "comp": "New York Marathon",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "14:00",
-     "s": "ostalo",
-     "title": "Curling",
-     "comp": "European Curling Championships",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Rijeka – Varaždin",
-     "comp": "SuperSport HNL",
-     "cro": "",
-     "ch": [
-      "MAXSport2",
-      "MAXSport1"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Lazio – Cagliari",
-     "comp": "Serie A",
-     "cro": "Josip Sutalo",
-     "ch": [
-      "Arena Sport 2"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Frosinone – Torino",
-     "comp": "Serie A",
-     "cro": "Nikola Vlasic",
-     "ch": [
-      "Arena Sport 4"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Strasbourg – Auxerre",
-     "comp": "Ligue1",
+     "t": "16:30",
+     "s": "kosarka",
+     "title": "Dubai – Zadar",
+     "comp": "Liga ABA",
      "cro": "",
      "ch": [
       "Arena Sport 1"
      ]
     },
     {
-     "t": "15:00",
+     "t": "17:00",
      "s": "nogomet",
-     "title": "Ofk – Vojvodina",
-     "comp": "Super Liga",
-     "cro": "",
-     "ch": [
-      "Arena Sport 6"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Sloga – Velež",
-     "comp": "WWIN Liga BiH",
-     "cro": "",
-     "ch": [
-      "Arena Sport 7"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Mura – Brinje",
-     "comp": "Prva Liga",
-     "cro": "",
-     "ch": [
-      "Sportklub 6"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Birmingham City Women Vs. Tottenham Hotspur Women",
-     "comp": "FA WSL",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Brighton And Hove Albion Women Vs. Crystal Palace Women",
-     "comp": "FA WSL",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "West Ham United Women Vs. Liverpool Women",
-     "comp": "FA WSL",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "nogomet",
-     "title": "Bayern Munich Vs. Leverkusen",
-     "comp": "FA WSL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "15:00",
-     "s": "rukomet",
-     "title": "Wetzlar – Melsungen",
-     "comp": "Handball-Bundesliga",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "15:30",
-     "s": "nogomet",
-     "title": "Union Berlin – Koln",
-     "comp": "Bundesliga",
-     "cro": "Josip Juranovic | Borna Sosa",
-     "ch": [
-      "Sportklub 3"
-     ]
-    },
-    {
-     "t": "15:30",
-     "s": "nogomet",
-     "title": "Melbourne City – Nasaf",
-     "comp": "FA WSL",
+     "title": "Atromitos – Volos",
+     "comp": "Super League",
      "cro": "",
      "ch": [
       "Sportklub 5"
      ]
     },
     {
-     "t": "15:30",
-     "s": "kosarka",
-     "title": "Eternal City Tip-off: Notre Dame Vs. Villanova",
-     "comp": "NCAA",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "15:30",
-     "s": "tenis",
-     "title": "Finale",
-     "comp": "ATP Basel",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "16:00",
+     "t": "17:00",
      "s": "nogomet",
-     "title": "Sint-truiden Vs. Leuven",
-     "comp": "Jupiler League",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "16:15",
-     "s": "nogomet",
-     "title": "Racing – Real Madrid",
-     "comp": "La Liga",
+     "title": "Sadd – Ahli",
+     "comp": "AFC Champions League",
      "cro": "",
      "ch": [
       "Sportklub 1"
      ]
     },
     {
-     "t": "16:30",
+     "t": "17:00",
      "s": "nogomet",
-     "title": "U. Craiova – Botosani",
-     "comp": "Liga 1",
+     "title": "Wasl – Air Force",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "tenis",
+     "title": "Molcan – Droguet",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "nogomet",
+     "title": "Zaglebie – Korona",
+     "comp": "Ekstraklasa",
+     "cro": "",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "nogomet",
+     "title": "Radomiak – Slask",
+     "comp": "Ekstraklasa",
      "cro": "",
      "ch": [
       "Arena Sport 5"
      ]
     },
     {
-     "t": "16:30",
+     "t": "18:00",
      "s": "nogomet",
-     "title": "Sonnenhof – Rot-weiss",
-     "comp": "3. Liga",
+     "title": "Wolfsburg Vs. Hoffenheim",
+     "comp": "Euro U17 Women",
      "cro": "",
      "ch": [
-      "Sportklub 4"
+      "DAZN"
      ]
     },
     {
-     "t": "17:00",
+     "t": "18:30",
      "s": "nogomet",
-     "title": "Partizan – Zemun",
-     "comp": "Super Liga",
-     "cro": "",
+     "title": "Sassuolo – Fiorentina",
+     "comp": "Serie A",
+     "cro": "Duje Caleta-Car | Marin Pongracic",
      "ch": [
-      "Arena Sport 9"
+      "Arena Sport 1"
      ]
     },
     {
-     "t": "17:00",
+     "t": "18:30",
      "s": "nogomet",
-     "title": "Kasimpasa – Besiktas",
-     "comp": "Super Lig",
+     "title": "Kalamata – Iraklis",
+     "comp": "Super League",
      "cro": "",
      "ch": [
-      "Sportklub HD"
+      "Sportklub 3"
      ]
     },
     {
-     "t": "17:00",
+     "t": "18:30",
      "s": "kosarka",
-     "title": "Derby – Ilirija",
+     "title": "Mega – Spartak",
      "comp": "Liga ABA",
      "cro": "",
      "ch": [
@@ -678,19 +348,89 @@
      ]
     },
     {
-     "t": "17:15",
+     "t": "19:00",
      "s": "nogomet",
-     "title": "Paris Fc – Monaco",
-     "comp": "Ligue1",
+     "title": "Sonderjyske – Copenhagen",
+     "comp": "Superliga",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "tenis",
+     "title": "Shapovalov – Khachanov",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "19:15",
+     "s": "nogomet",
+     "title": "Ittihad – Ain",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "19:30",
+     "s": "nogomet",
+     "title": "U.cluj – Fcsb",
+     "comp": "Liga 1",
      "cro": "",
      "ch": [
       "Arena Sport 4"
      ]
     },
     {
-     "t": "17:30",
+     "t": "20:30",
      "s": "nogomet",
-     "title": "Liverpool – Arsenal",
+     "title": "Rakow – Pogon",
+     "comp": "Ekstraklasa",
+     "cro": "",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "20:30",
+     "s": "tenis",
+     "title": "Humbert – Van De Zandschulp",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "20:45",
+     "s": "nogomet",
+     "title": "Atalanta – Parma",
+     "comp": "Serie A",
+     "cro": "Mario Pasalic | Matija Frigan",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "20:45",
+     "s": "nogomet",
+     "title": "Lorient – Brest",
+     "comp": "Ligue1",
+     "cro": "",
+     "ch": [
+      "Arena Sport 5"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Newcastle – Everton",
      "comp": "Premier League",
      "cro": "",
      "ch": [
@@ -698,335 +438,13 @@
      ]
     },
     {
-     "t": "17:30",
+     "t": "21:00",
      "s": "nogomet",
-     "title": "Eintracht – Hamburg",
-     "comp": "Bundesliga",
-     "cro": "",
+     "title": "La Coruna – Osasuna",
+     "comp": "La Liga",
+     "cro": "Ante Budimir",
      "ch": [
       "Sportklub 3"
-     ]
-    },
-    {
-     "t": "17:30",
-     "s": "nogomet",
-     "title": "Celje – Nafta",
-     "comp": "Prva Liga",
-     "cro": "Simon Sluga",
-     "ch": [
-      "Sportklub 6"
-     ]
-    },
-    {
-     "t": "18:00",
-     "s": "nogomet",
-     "title": "Lokomotiva – Osijek",
-     "comp": "SuperSport HNL",
-     "cro": "",
-     "ch": [
-      "MAXSport2"
-     ]
-    },
-    {
-     "t": "18:00",
-     "s": "nogomet",
-     "title": "Lecce – Genoa",
-     "comp": "Serie A",
-     "cro": "",
-     "ch": [
-      "Arena Sport 6"
-     ]
-    },
-    {
-     "t": "18:30",
-     "s": "nogomet",
-     "title": "Elche – Valencia",
-     "comp": "La Liga",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "18:55",
-     "s": "ostalo",
-     "title": "LIVE - Round Ten: 1/8 to 1/4 Finals | 2026 UCI BMX Racing World Cup",
-     "comp": "UCI BMX Racing World Cup",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
-    {
-     "t": "19:00",
-     "s": "nogomet",
-     "title": "Boca Juniors – River Plate",
-     "comp": "Liga Profesional",
-     "cro": "",
-     "ch": [
-      "Arena Sport 3"
-     ]
-    },
-    {
-     "t": "19:00",
-     "s": "kosarka",
-     "title": "Unicaja – Barcelona",
-     "comp": "ACB",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "19:00",
-     "s": "kosarka",
-     "title": "Slovan – Krka",
-     "comp": "Liga ABA",
-     "cro": "",
-     "ch": [
-      "Arena Sport 7"
-     ]
-    },
-    {
-     "t": "19:00",
-     "s": "hokej",
-     "title": "Carolina – Winnipeg",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN",
-      "Arena Sport 8"
-     ]
-    },
-    {
-     "t": "19:30",
-     "s": "nogomet",
-     "title": "Alemannia – Munster",
-     "comp": "3. Liga",
-     "cro": "",
-     "ch": [
-      "Sportklub 3"
-     ]
-    },
-    {
-     "t": "19:30",
-     "s": "ostalo",
-     "title": "World Tour | Montreal",
-     "comp": "ISU Short Track Speed Skating World Cup",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "20:00",
-     "s": "motosport",
-     "title": "Race",
-     "comp": "Formula 1",
-     "cro": "",
-     "ch": [
-      "Voyo",
-      "RTL"
-     ]
-    },
-    {
-     "t": "20:00",
-     "s": "motosport",
-     "title": "NASCAR: Playoffs: Martinsville",
-     "comp": "Nascar Cup",
-     "cro": "Nascar Cup",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "20:45",
-     "s": "nogomet",
-     "title": "Juventus – Napoli",
-     "comp": "Serie A",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
-    {
-     "t": "20:45",
-     "s": "nogomet",
-     "title": "Marseille – Toulouse",
-     "comp": "Ligue1",
-     "cro": "",
-     "ch": [
-      "Arena Sport 4"
-     ]
-    },
-    {
-     "t": "21:00",
-     "s": "nogomet",
-     "title": "Bilbao – Real Sociedad",
-     "comp": "La Liga",
-     "cro": "Luka Sucic",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "21:00",
-     "s": "ostalo",
-     "title": "LIVE - Round Ten: 1/2 Finals to Finals | 2026 UCI BMX Racing World Cup",
-     "comp": "UCI BMX Racing World Cup",
-     "cro": "",
-     "ch": [
-      "HBO Max",
-      "Youtube"
-     ]
-    },
-    {
-     "t": "21:00",
-     "s": "ostalo",
-     "title": "Mexico Open | Day 4",
-     "comp": "Mexico Open",
-     "cro": "",
-     "ch": [
-      "Eurosport 2 - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "21:00",
-     "s": "ostalo",
-     "title": "Women | Free Program",
-     "comp": "Skate Canada",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "21:30",
-     "s": "kosarka",
-     "title": "Orlando – Boston",
-     "comp": "NBA",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "21:30",
-     "s": "hokej",
-     "title": "Wild @ Capitals",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "22:00",
-     "s": "hokej",
-     "title": "Mammoth @ Flyers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-11-02",
-   "events": [
-    {
-     "t": "00:00",
-     "s": "hokej",
-     "title": "Oilers @ Rangers",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "00:30",
-     "s": "ostalo",
-     "title": "Simmons Bank Championship | Day 3",
-     "comp": "PGA Tour Champions",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "02:00",
-     "s": "hokej",
-     "title": "Senators @ Ducks",
-     "comp": "NHL",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "02:30",
-     "s": "ostalo",
-     "title": "Snooker",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "kosarka",
-     "title": "La Lakers – Toronto",
-     "comp": "NBA",
-     "cro": "",
-     "ch": [
-      "Sportklub 1"
-     ]
-    },
-    {
-     "t": "07:00",
-     "s": "ostalo",
-     "title": "Snooker",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Snooker",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "18:00",
-     "s": "nogomet",
-     "title": "Wolfsburg Vs. Hoffenheim",
-     "comp": "Primeira Liga",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "20:45",
-     "s": "nogomet",
-     "title": "Reims – Sochaux",
-     "comp": "Ligue 2",
-     "cro": "",
-     "ch": [
-      "Arena Sport 3"
      ]
     },
     {
@@ -1072,6 +490,16 @@
      "cro": "",
      "ch": [
       "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "kosarka",
+     "title": "Cleveland – Oklahoma City",
+     "comp": "NBA",
+     "cro": "Mario Hezonja",
+     "ch": [
+      "Sportklub 1"
      ]
     },
     {
@@ -1147,8 +575,479 @@
     {
      "t": "04:00",
      "s": "kosarka",
+     "title": "La Lakers – Miami",
+     "comp": "NBA",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "04:00",
+     "s": "kosarka",
      "title": "Montana @ Oregon",
      "comp": "NCAA",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "07:00",
+     "s": "tenis",
+     "title": "WTA 250 Hong Kong",
+     "comp": "WTA Hong Kong",
+     "cro": "WTA Hong Kong",
+     "ch": [
+      "Sportklub HD",
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "07:00",
+     "s": "ostalo",
+     "title": "Snooker",
+     "comp": "International Championship",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "08:45",
+     "s": "nogomet",
+     "title": "Newcastle Jets – Shanghai Port",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "10:30",
+     "s": "tenis",
+     "title": "Tenis: WTA 250 Chennai & WTA 250 Hong Kong",
+     "comp": "WTA Hong Kong",
+     "cro": "WTA Hong Kong",
+     "ch": [
+      "Sportklub 5",
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "nogomet",
+     "title": "Kashiwa – Daejon",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "nogomet",
+     "title": "Jeonbuk – Johor",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "11:00",
+     "s": "nogomet",
+     "title": "Kobe – Ratchaburi",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "12:30",
+     "s": "ostalo",
+     "title": "Snooker",
+     "comp": "International Championship",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "13:15",
+     "s": "nogomet",
+     "title": "Port – Peking",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "13:15",
+     "s": "nogomet",
+     "title": "Cong An Ha Noi – Kyoto",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "nogomet",
+     "title": "Mladost ždralovi – Slaven Belupo",
+     "comp": "SuperSport Kup",
+     "cro": "",
+     "ch": [
+      "MAXSport2",
+      "MAXSport1"
+     ]
+    },
+    {
+     "t": "14:45",
+     "s": "nogomet",
+     "title": "East Bengal – Seeb",
+     "comp": "AFC Champions League 2",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "nogomet",
+     "title": "Istra 1961 – Neretva",
+     "comp": "SuperSport Kup",
+     "cro": "",
+     "ch": [
+      "MAXSport2",
+      "MAXSport1"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "nogomet",
+     "title": "Esteghlal – Shamal",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "nogomet",
+     "title": "Hussein – Shorta",
+     "comp": "AFC Champions League 2",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "kosarka",
+     "title": "Triglav – Sloboda Užice",
+     "comp": "Liga ABA 2",
+     "cro": "",
+     "ch": [
+      "Arena Sport 4"
+     ]
+    },
+    {
+     "t": "18:30",
+     "s": "kosarka",
+     "title": "Vilpas – Antwerp",
+     "comp": "Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "nogomet",
+     "title": "Galatasaray – Stuttgart",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "nogomet",
+     "title": "Shakhtar – Sporting",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "kosarka",
+     "title": "Juventus – Pardubice",
+     "comp": "Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 5"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "tenis",
+     "title": "ATP Masters Paris",
+     "comp": "Rolex Paris Masters",
+     "cro": "Rolex Paris Masters",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
+     "t": "19:15",
+     "s": "nogomet",
+     "title": "Hilal – Shabab Ahli",
+     "comp": "AFC Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 6"
+     ]
+    },
+    {
+     "t": "19:30",
+     "s": "kosarka",
+     "title": "Ulm – Bahcesehir",
+     "comp": "Eurocup",
+     "cro": "",
+     "ch": [
+      "Sportklub 3"
+     ]
+    },
+    {
+     "t": "20:00",
+     "s": "kosarka",
+     "title": "Strasbourg – Cibona",
+     "comp": "Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 1"
+     ]
+    },
+    {
+     "t": "20:30",
+     "s": "kosarka",
+     "title": "Porto – Joventut",
+     "comp": "Champions League",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "20:45",
+     "s": "nogomet",
+     "title": "Wba – Southampton",
+     "comp": "National League South",
+     "cro": "",
+     "ch": [
+      "Arena Sport 6"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Atletico Madrid – Bayern",
+     "comp": "Liga prvaka",
+     "cro": "Josip Stanisic",
+     "ch": [
+      "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Manchester United – Roma",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Barcelona – Aston Villa",
+     "comp": "Liga prvaka",
+     "cro": "Dominik Livakovic",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Villareal – Psg",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 5"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Feyenoord – Inter",
+     "comp": "Liga prvaka",
+     "cro": "Petar Sucic",
+     "ch": [
+      "Arena Sport 7"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Bodo Glimt – Lille",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 8"
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "events": [
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Blues @ Rangers",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Mammoth @ Maple Leafs",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Golden Knights @ Penguins",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Jets @ Canadiens",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Stars @ Capitals",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Red Wings @ Lightning",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Avalanche @ Blue Jackets",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:00",
+     "s": "hokej",
+     "title": "Wild @ Flyers",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "01:30",
+     "s": "hokej",
+     "title": "Oilers @ Devils",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "02:00",
+     "s": "kosarka",
+     "title": "Lipscomb @ Iowa",
+     "comp": "NCAA",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "02:00",
+     "s": "hokej",
+     "title": "Hurricanes @ Predators",
+     "comp": "NHL",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "02:30",
+     "s": "kosarka",
+     "title": "Lipscomb @ Iowa",
+     "comp": "NCAA",
+     "cro": "",
+     "ch": [
+      "DAZN"
+     ]
+    },
+    {
+     "t": "03:00",
+     "s": "hokej",
+     "title": "Ducks @ Canucks",
+     "comp": "NHL",
      "cro": "",
      "ch": [
       "DAZN"
@@ -1174,6 +1073,137 @@
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
+     ]
+    },
+    {
+     "t": "17:00",
+     "s": "rukomet",
+     "title": "Hrvatska – Litva",
+     "comp": "Europsko prvenstvo",
+     "cro": "",
+     "ch": [
+      "Voyo"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "kosarka",
+     "title": "Hercegovac – Tft Skopje",
+     "comp": "Liga ABA 2",
+     "cro": "",
+     "ch": [
+      "Arena Sport 4"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "nogomet",
+     "title": "Fenerbahce – Liverpool",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "18:45",
+     "s": "nogomet",
+     "title": "Aek – Real Madrid",
+     "comp": "Liga prvaka",
+     "cro": "Lovro Majer, Domagoj Vida",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "kosarka",
+     "title": "Batumi – Split",
+     "comp": "FIBA Europe Cup",
+     "cro": "",
+     "ch": [
+      "MAXSport1"
+     ]
+    },
+    {
+     "t": "19:00",
+     "s": "odbojka",
+     "title": "Mladost – Levski",
+     "comp": "Champions League",
+     "cro": "",
+     "ch": [
+      "MAXSport1"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Bristol – Wolves",
+     "comp": "Championship",
+     "cro": "",
+     "ch": [
+      "Arena Sport 6"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Leipzig – Manchester City",
+     "comp": "Liga prvaka",
+     "cro": "Mateo Kovacic, Josko Gvardiol",
+     "ch": [
+      "HTV2",
+      "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Borussia Dortmund – Betis",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 2"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Lens – Como",
+     "comp": "Liga prvaka",
+     "cro": "Franjo Ivanovic | Martin Baturina",
+     "ch": [
+      "Arena Sport 3"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Porto – Napoli",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 5"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Slavia Prag – Arsenal",
+     "comp": "Liga prvaka",
+     "cro": "",
+     "ch": [
+      "Arena Sport 7"
+     ]
+    },
+    {
+     "t": "21:00",
+     "s": "nogomet",
+     "title": "Psv – Club Brugge",
+     "comp": "Liga prvaka",
+     "cro": "Ivan Perisic",
+     "ch": [
+      "Arena Sport 8"
      ]
     }
    ]
