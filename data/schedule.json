@@ -1,162 +1,10 @@
 {
- "generated": "2026-11-02T13:11+01:00",
+ "generated": "2026-11-02T21:39+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-11-02",
    "events": [
-    {
-     "t": "07:00",
-     "s": "tenis",
-     "title": "WTA 250 Hong Kong: Golubic - Boulter",
-     "comp": "WTA Hong Kong",
-     "cro": "WTA Hong Kong",
-     "ch": [
-      "Sportklub HD",
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "07:10",
-     "s": "tenis",
-     "title": "Golubic – Boulter",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "08:55",
-     "s": "tenis",
-     "title": "Volynets – Sasnovich",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "09:15",
-     "s": "tenis",
-     "title": "Lee – Sakkari",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "10:30",
-     "s": "tenis",
-     "title": "Sawangkaew – Hontama",
-     "comp": "WTA Chennai Open",
-     "cro": "",
-     "ch": [
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "11:00",
-     "s": "tenis",
-     "title": "Buse – Bergs",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "11:00",
-     "s": "tenis",
-     "title": "Darderi – Hijikata",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "12:00",
-     "s": "nogomet",
-     "title": "Slovačka U-17 (ž) – Hrvatska U-17 (ž)",
-     "comp": "Euro U17 Women",
-     "cro": "",
-     "ch": [
-      "MAXSport2"
-     ]
-    },
-    {
-     "t": "12:00",
-     "s": "tenis",
-     "title": "Yamaguchi – Kulambayeva",
-     "comp": "WTA Chennai Open",
-     "cro": "",
-     "ch": [
-      "Sportklub 4"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "tenis",
-     "title": "Van Assche – Navone",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Wu Yize – Stephen Maguire",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Chris Wakelin – Chang Bingyu",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Sam Craigie – Zhao Xintong",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "12:30",
-     "s": "ostalo",
-     "title": "Ryan Day – Kyren Wilson",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "13:00",
-     "s": "kosarka",
-     "title": "Partizan – Cluj",
-     "comp": "Liga ABA",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
-     ]
-    },
     {
      "t": "14:00",
      "s": "tenis",
@@ -165,16 +13,6 @@
      "cro": "",
      "ch": [
       "Sportklub 2"
-     ]
-    },
-    {
-     "t": "14:00",
-     "s": "tenis",
-     "title": "Norrie – Arnaldi",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
      ]
     },
     {
@@ -188,19 +26,9 @@
      ]
     },
     {
-     "t": "15:30",
+     "t": "14:50",
      "s": "tenis",
-     "title": "Bellucci – Sonego",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "15:30",
-     "s": "tenis",
-     "title": "Jacquet – Machac",
+     "title": "Norrie – Arnaldi",
      "comp": "Rolex Paris Masters",
      "cro": "",
      "ch": [
@@ -228,6 +56,16 @@
      ]
     },
     {
+     "t": "16:10",
+     "s": "tenis",
+     "title": "Bellucci – Sonego",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
+     ]
+    },
+    {
      "t": "16:30",
      "s": "nogomet",
      "title": "Voluntari – Farul",
@@ -245,6 +83,16 @@
      "cro": "",
      "ch": [
       "Arena Sport 1"
+     ]
+    },
+    {
+     "t": "16:55",
+     "s": "tenis",
+     "title": "Jacquet – Machac",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
      ]
     },
     {
@@ -278,16 +126,6 @@
      ]
     },
     {
-     "t": "17:00",
-     "s": "tenis",
-     "title": "Molcan – Droguet",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
      "t": "18:00",
      "s": "nogomet",
      "title": "Zaglebie – Korona",
@@ -311,10 +149,20 @@
      "t": "18:00",
      "s": "nogomet",
      "title": "Wolfsburg Vs. Hoffenheim",
-     "comp": "Euro U17 Women",
+     "comp": "AFC Champions League",
      "cro": "",
      "ch": [
       "DAZN"
+     ]
+    },
+    {
+     "t": "18:00",
+     "s": "tenis",
+     "title": "Molcan – Droguet",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
      ]
     },
     {
@@ -667,6 +515,16 @@
     },
     {
      "t": "12:30",
+     "s": "tenis",
+     "title": "Sawangkaew – Hontama",
+     "comp": "WTA Chennai Open",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
+     ]
+    },
+    {
+     "t": "12:30",
      "s": "ostalo",
      "title": "Snooker",
      "comp": "International Championship",
@@ -705,6 +563,16 @@
      "ch": [
       "MAXSport2",
       "MAXSport1"
+     ]
+    },
+    {
+     "t": "14:00",
+     "s": "tenis",
+     "title": "Yamaguchi – Kulambayeva",
+     "comp": "WTA Chennai Open",
+     "cro": "",
+     "ch": [
+      "Sportklub 4"
      ]
     },
     {
