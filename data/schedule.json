@@ -1,51 +1,10 @@
 {
- "generated": "2026-11-04T12:58+01:00",
+ "generated": "2026-11-04T19:30+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-11-04",
    "events": [
-    {
-     "t": "07:00",
-     "s": "tenis",
-     "title": "Fernandez – Kenin",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "07:00",
-     "s": "ostalo",
-     "title": "Ding Junhui - Kyren Wilson",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "07:10",
-     "s": "tenis",
-     "title": "Ružić – Charaeva",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "08:45",
-     "s": "nogomet",
-     "title": "Melbourne Victory – Persib Bandung",
-     "comp": "AFC Champions League 2",
-     "cro": "",
-     "ch": [
-      "Sportklub 3"
-     ]
-    },
     {
      "t": "09:30",
      "s": "nogomet",
@@ -57,27 +16,7 @@
      ]
     },
     {
-     "t": "09:30",
-     "s": "tenis",
-     "title": "Gibson – Sasnovich",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "09:45",
-     "s": "tenis",
-     "title": "Liu – Boulter",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "10:30",
+     "t": "10:40",
      "s": "tenis",
      "title": "Montgomery – Vandromme",
      "comp": "WTA Chennai Open",
@@ -87,7 +26,7 @@
      ]
     },
     {
-     "t": "10:30",
+     "t": "10:40",
      "s": "tenis",
      "title": "Selekhmeteva – P. Kudermetova",
      "comp": "WTA Chennai Open",
@@ -117,23 +56,23 @@
      ]
     },
     {
-     "t": "11:00",
-     "s": "tenis",
-     "title": "Halys – Tiafoe",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "11:00",
+     "t": "11:10",
      "s": "tenis",
      "title": "Bellucci – Rinderknech",
      "comp": "Rolex Paris Masters",
      "cro": "",
      "ch": [
       "Sportklub HD"
+     ]
+    },
+    {
+     "t": "11:15",
+     "s": "tenis",
+     "title": "Halys – Tiafoe",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub 2"
      ]
     },
     {
@@ -168,16 +107,6 @@
     },
     {
      "t": "12:30",
-     "s": "tenis",
-     "title": "Van Assche – Tien",
-     "comp": "Rolex Paris Masters",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "12:30",
      "s": "ostalo",
      "title": "Chang Bingyu – Zhao Xintong",
      "comp": "International Championship",
@@ -195,6 +124,16 @@
      "cro": "",
      "ch": [
       "HBO Max"
+     ]
+    },
+    {
+     "t": "12:35",
+     "s": "tenis",
+     "title": "Van Assche – Tien",
+     "comp": "Rolex Paris Masters",
+     "cro": "",
+     "ch": [
+      "Sportklub HD"
      ]
     },
     {
