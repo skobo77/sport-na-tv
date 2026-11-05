@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T13:02+01:00",
+ "generated": "2026-11-05T19:35+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
@@ -13,57 +13,6 @@
      "cro": "",
      "ch": [
       "Youtube"
-     ]
-    },
-    {
-     "t": "07:00",
-     "s": "ostalo",
-     "title": "Kyren Wilson – Fan Zhengyi",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "07:10",
-     "s": "tenis",
-     "title": "Wang – Ružić",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
-     ]
-    },
-    {
-     "t": "07:10",
-     "s": "tenis",
-     "title": "Pridankina – Shubladze",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "08:00",
-     "s": "ostalo",
-     "title": "Abu Dhabi Aldar Champion: Day 1",
-     "comp": "Abu Dhabi HSBC Golf Championship",
-     "cro": "Abu Dhabi HSBC Golf Championship",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "09:30",
-     "s": "tenis",
-     "title": "Stojsavljevic – Sonmez",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub 2"
      ]
     },
     {
@@ -97,7 +46,7 @@
      ]
     },
     {
-     "t": "11:00",
+     "t": "11:10",
      "s": "tenis",
      "title": "Paul – Halys",
      "comp": "Rolex Paris Masters",
@@ -124,6 +73,17 @@
      "cro": "",
      "ch": [
       "Sportklub 2"
+     ]
+    },
+    {
+     "t": "12:30",
+     "s": "ostalo",
+     "title": "Kyren Wilson – Fan Zhengyi",
+     "comp": "International Championship",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
+      "HBO Max"
      ]
     },
     {
@@ -185,16 +145,6 @@
      "ch": [
       "Sportklub HD",
       "Sportklub 2"
-     ]
-    },
-    {
-     "t": "16:30",
-     "s": "nogomet",
-     "title": "RENNES - OLYMPIACOS",
-     "comp": "Europska liga",
-     "cro": "",
-     "ch": [
-      "Arena Sport 1"
      ]
     },
     {
