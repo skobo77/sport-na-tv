@@ -1,49 +1,19 @@
 {
- "generated": "2026-11-06T12:57+01:00",
+ "generated": "2026-11-06T18:52+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-11-06",
    "events": [
     {
-     "t": "07:00",
+     "t": "09:25",
      "s": "ostalo",
-     "title": "Snooker",
-     "comp": "International Championship",
-     "cro": "",
-     "ch": [
-      "Eurosport - Balkan",
-      "HBO Max"
-     ]
-    },
-    {
-     "t": "07:10",
-     "s": "tenis",
-     "title": "1/4 Finale",
-     "comp": "WTA Hong Kong",
-     "cro": "",
-     "ch": [
-      "Sportklub HD"
-     ]
-    },
-    {
-     "t": "07:45",
-     "s": "ostalo",
-     "title": "Ice Dance | Short Program",
+     "title": "Women | Short Program",
      "comp": "ISU Grand Prix of Figure Skating",
      "cro": "",
      "ch": [
+      "Eurosport 2 - Balkan",
       "HBO Max"
-     ]
-    },
-    {
-     "t": "08:00",
-     "s": "ostalo",
-     "title": "Abu Dhabi Aldar Champion: Day 2",
-     "comp": "Abu Dhabi HSBC Golf Championship",
-     "cro": "Abu Dhabi HSBC Golf Championship",
-     "ch": [
-      "Sportklub Golf"
      ]
     },
     {
@@ -94,6 +64,17 @@
      "cro": "",
      "ch": [
       "Eurosport 2 - Balkan",
+      "HBO Max"
+     ]
+    },
+    {
+     "t": "12:30",
+     "s": "ostalo",
+     "title": "Snooker",
+     "comp": "International Championship",
+     "cro": "",
+     "ch": [
+      "Eurosport - Balkan",
       "HBO Max"
      ]
     },
@@ -196,16 +177,6 @@
      "cro": "Moto GP",
      "ch": [
       "Sportklub 1"
-     ]
-    },
-    {
-     "t": "17:30",
-     "s": "tenis",
-     "title": "LIVE! | Day 4 | Infinity Arena I WTT Champions Frankfurt 2026 | Session 2",
-     "comp": "World Table Tennis",
-     "cro": "",
-     "ch": [
-      "Youtube"
      ]
     },
     {
