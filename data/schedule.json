@@ -1,70 +1,10 @@
 {
- "generated": "2026-11-07T11:57+01:00",
+ "generated": "2026-11-07T17:46+01:00",
  "source": "https://sporter.com.hr/",
  "days": [
   {
    "date": "2026-11-07",
    "events": [
-    {
-     "t": "02:30",
-     "s": "kosarka",
-     "title": "Eastern Illinois @ Iowa",
-     "comp": "NCAA",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:00",
-     "s": "kosarka",
-     "title": "Middle Tennessee @ Kansas",
-     "comp": "NCAA",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "03:30",
-     "s": "ostalo",
-     "title": "LPGA Toto Japan Classic: Day 3",
-     "comp": "Toto Japan Classic",
-     "cro": "Toto Japan Classic",
-     "ch": [
-      "Sportklub Golf"
-     ]
-    },
-    {
-     "t": "04:15",
-     "s": "ostalo",
-     "title": "Tcu @ Arizona",
-     "comp": "NCAA FBS",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "04:30",
-     "s": "kosarka",
-     "title": "North Florida @ Ucla",
-     "comp": "NCAA",
-     "cro": "",
-     "ch": [
-      "DAZN"
-     ]
-    },
-    {
-     "t": "07:00",
-     "s": "nogomet",
-     "title": "Fc Tokyo Vs. Kashima Antlers",
-     "comp": "J-League",
-     "cro": "",
-     "ch": [
-      "Youtube"
-     ]
-    },
     {
      "t": "07:00",
      "s": "ostalo",
@@ -74,16 +14,6 @@
      "ch": [
       "Eurosport - Balkan",
       "HBO Max"
-     ]
-    },
-    {
-     "t": "08:00",
-     "s": "ostalo",
-     "title": "European Tour: Abu Dhabi Golf Championship: Day 3",
-     "comp": "Abu Dhabi HSBC Golf Championship",
-     "cro": "Abu Dhabi HSBC Golf Championship",
-     "ch": [
-      "Sportklub Golf"
      ]
     },
     {
